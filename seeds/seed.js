@@ -14,7 +14,7 @@ const seedDatabase = async () => {
   });
 
   const categories = await Categories.bulkCreate(categoryData);
-  const exercise = await Workouts.bulkCreate(exerciseData);
+  const exercise = await Exercises.bulkCreate(exerciseData);
 
   process.exit(0);
 };
