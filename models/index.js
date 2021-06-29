@@ -1,7 +1,7 @@
 const User = require('./User');
 const Categories = require('./Categories');
 const Exercises = require('./Exercises');
-// const Muscles = require('./Muscles');
+const Muscles = require('./Muscles');
 
 
 Exercises.belongsTo(Categories, {
@@ -24,5 +24,5 @@ module.exports = {
   User,
   Categories,
   Exercises,
-  // Muscles,
+  Muscles,
 };
