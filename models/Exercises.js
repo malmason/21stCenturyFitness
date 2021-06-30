@@ -10,20 +10,64 @@ Exercises.init(
       allowNull: false,
       primaryKey: true,
     },
+    uuid: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
     name: {
       type: DataTypes.STRING,
       allowNull: false,
+    },
+    exercise_base: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
+    status: {
+      type: DataTypes.STRING,
+      allowNull: true,
     },
     description: {
       type: DataTypes.TEXT,
       allowNull: true,
     },
-    category_id: {
+    creation_date: {
+      type: DataTypes.DATE,
+      allowNull: true,
+    },
+    category: {
       type: DataTypes.INTEGER,
       references: {
         model: 'categories',
         key: 'id',
       },
+    },
+    muscles: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    muscles_secondary: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    equipment: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    language: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
+    license: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
+    license_author: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    variations: {
+      type: DataTypes.STRING,
+      allowNull: true,
     },
   },
 
