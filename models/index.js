@@ -4,11 +4,11 @@ const Exercises = require('./Exercises');
 
 
 Exercises.belongsTo(Categories, {
-  foreignKey: 'category',
+  foreignKey: 'category_id',
 });
 
 Categories.hasMany(Exercises, {
- foreignKey: 'category',
+ foreignKey: 'category_id',
  onDelete: 'CASCADE',
  onUpdate: 'CASCADE',
 });

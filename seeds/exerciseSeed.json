@@ -8,13 +8,13 @@
     "description": "<p>Two Handed Russian Style Kettlebell swing</p>",
     "creation_date": "2015-08-03",
     "category": 10,
-    "muscles": [],
-    "muscles_secondary": [],
+    "muscles": "",
+    "muscles_secondary": "",
     "equipment": [10],
     "language": 2,
     "license": 2,
     "license_author": "deusinvictus",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 227,
@@ -25,8 +25,8 @@
     "description": "<p>Very common shoulder exercise.</p>\n<p> </p>\n<p>As shown here: https://www.youtube.com/watch?v=vj2w851ZHRM</p>",
     "creation_date": "2014-03-09",
     "category": 13,
-    "muscles": [],
-    "muscles_secondary": [],
+    "muscles": "",
+    "muscles_secondary": "",
     "equipment": [3],
     "language": 2,
     "license": 1,
@@ -42,13 +42,13 @@
     "description": "<p>Grab dumbbells and extend arms to side and hold as long as you can</p>",
     "creation_date": "2014-11-02",
     "category": 8,
-    "muscles": [],
-    "muscles_secondary": [],
+    "muscles": "",
+    "muscles_secondary": "",
     "equipment": [3],
     "language": 2,
     "license": 1,
     "license_author": "GrosseHund",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 637,
@@ -59,13 +59,13 @@
     "description": "<p>Place a barbell in a rack just below shoulder-height. Dip under the bar to put it behind the neck across the top of the back, and grip the bar with the hands wider than shoulder-width apart. Lift the chest up and squeeze the shoulder blades together to keep the straight back throughout the entire movement. Stand up to bring the bar off the rack and step backwards, then place the feet so that they are a little wider than shoulder-width apart. Sit back into hips and keep the back straight and the chest up, squatting down so the hips are below the knees. From the bottom of the squat, press feet into the ground and push hips forward to return to the top of the standing position.</p>",
     "creation_date": "2019-05-29",
     "category": 9,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "axel",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 343,
@@ -77,12 +77,12 @@
     "creation_date": "2015-07-27",
     "category": 10,
     "muscles": [14],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [1],
     "language": 2,
     "license": 2,
     "license_author": "sevae",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 407,
@@ -150,7 +150,7 @@
     "language": 2,
     "license": 2,
     "license_author": "nate303303",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 192,
@@ -184,7 +184,7 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 88,
@@ -213,12 +213,12 @@
     "creation_date": "2014-09-01",
     "category": 13,
     "muscles": [9],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [3],
     "language": 2,
     "license": 1,
     "license_author": "lakerbeezel",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 412,
@@ -229,8 +229,8 @@
     "description": "<ol>\n<li>Holding a barbell with a pronated grip (palms facing down), bend your knees slightly and bring your torso forward, by bending at the waist, while keeping the back straight until it is almost parallel to the floor. Tip: Make sure that you keep the head up. The barbell should hang directly in front of you as your arms hang perpendicular to the floor and your torso. This is your starting position.</li>\n<li>Now, while keeping the torso stationary, breathe out and lift the barbell to you. Keep the elbows close to the body and only use the forearms to hold the weight. At the top contracted position, squeeze the back muscles and hold for a brief pause.</li>\n<li>Then inhale and slowly lower the barbell back to the starting position.</li>\n<li>Repeat for the recommended amount of repetitions.</li>\n</ol>",
     "creation_date": "2016-08-15",
     "category": 12,
-    "muscles": [],
-    "muscles_secondary": [],
+    "muscles": "",
+    "muscles_secondary": "",
     "equipment": [1],
     "language": 2,
     "license": 2,
@@ -263,8 +263,8 @@
     "description": "<p>Sit on bench while holding weights. Bend forward as far as possible, with arms slightly bent at the elbow. Perform a lateral raise while maintaining the bend in your elbow.</p>",
     "creation_date": "2016-09-29",
     "category": 13,
-    "muscles": [],
-    "muscles_secondary": [],
+    "muscles": "",
+    "muscles_secondary": "",
     "equipment": [8, 3],
     "language": 2,
     "license": 2,
@@ -366,8 +366,8 @@
     "creation_date": "2013-05-05",
     "category": 8,
     "muscles": [1],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -383,12 +383,12 @@
     "creation_date": "2015-07-21",
     "category": 8,
     "muscles": [5],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [7],
     "language": 2,
     "license": 2,
     "license_author": "cal.zabel",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 342,
@@ -401,7 +401,7 @@
     "category": 9,
     "muscles": [10],
     "muscles_secondary": [8],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "sevae",
@@ -416,13 +416,13 @@
     "description": "<p>Jump, lay down on your chest, do a pushup then jump, repeat</p>",
     "creation_date": "2015-11-01",
     "category": 11,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "er0355",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 98,
@@ -435,11 +435,11 @@
     "category": 11,
     "muscles": [4],
     "muscles_secondary": [2],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 99,
@@ -451,12 +451,12 @@
     "creation_date": "2013-05-05",
     "category": 11,
     "muscles": [4],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 124,
@@ -468,12 +468,12 @@
     "creation_date": "2013-05-05",
     "category": 13,
     "muscles": [2],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 207,
@@ -485,12 +485,12 @@
     "creation_date": "2014-01-15",
     "category": 11,
     "muscles": [4],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "tuckerm",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 265,
@@ -502,12 +502,12 @@
     "creation_date": "2014-07-27",
     "category": 13,
     "muscles": [2],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "lauroernesto",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 167,
@@ -519,12 +519,12 @@
     "creation_date": "2013-06-23",
     "category": 10,
     "muscles": [14],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "robhoyt",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 308,
@@ -536,12 +536,12 @@
     "creation_date": "2015-02-06",
     "category": 14,
     "muscles": [7, 15],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "nate303303",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 776,
@@ -553,7 +553,7 @@
     "creation_date": "2020-04-06",
     "category": 14,
     "muscles": [7, 15],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [3, 10],
     "language": 2,
     "license": 3,
@@ -571,7 +571,7 @@
     "category": 14,
     "muscles": [7],
     "muscles_secondary": [15],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -587,12 +587,12 @@
     "creation_date": "2020-05-10",
     "category": 12,
     "muscles": [1, 12],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [6],
     "language": 2,
     "license": 3,
     "license_author": "BFad07",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 181,
@@ -604,12 +604,12 @@
     "creation_date": "2013-07-24",
     "category": 12,
     "muscles": [1, 12],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [6],
     "language": 2,
     "license": 1,
     "license_author": "oliser67",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 217,
@@ -638,8 +638,8 @@
     "creation_date": "2014-02-01",
     "category": 12,
     "muscles": [12],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "tuckerm",
@@ -655,12 +655,12 @@
     "creation_date": "2013-08-20",
     "category": 11,
     "muscles": [12, 4, 3],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "powerade69",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 91,
@@ -689,8 +689,8 @@
     "creation_date": "2013-05-05",
     "category": 10,
     "muscles": [6],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -706,8 +706,8 @@
     "creation_date": "2013-05-05",
     "category": 10,
     "muscles": [6],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -724,7 +724,7 @@
     "category": 10,
     "muscles": [6],
     "muscles_secondary": [14],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "krisbbb",
@@ -740,12 +740,12 @@
     "creation_date": "2018-11-27",
     "category": 8,
     "muscles": [1],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [8],
     "language": 2,
     "license": 2,
     "license_author": "csequino",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 806,
@@ -762,7 +762,7 @@
     "language": 2,
     "license": 3,
     "license_author": "BFad07",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 544,
@@ -773,13 +773,13 @@
     "description": "Lie on your back, with your hips and knees bent to 90°. Raise both arms toward the ceiling. Pull your lower back to the floor to eliminate the gap. Start by pressing one leg out, and tapping the heel to the floor. \"As you extend one leg, exhale as much as you can, keeping your lower back glued to the floor,\" Dunham says. When you can’t exhale any more, pull your knee back to the starting position. Make this more difficult by holding weight in your hands, or by lowering opposite arm and leg.",
     "creation_date": "2018-01-15",
     "category": 10,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "Metin",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 347,
@@ -790,13 +790,13 @@
     "description": "<p>Deadhang performed on an edge either with or without added weight (adujst edge or weight to adjust difficulty)</p>",
     "creation_date": "2015-08-27",
     "category": 8,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "2dPREtEZP221u68Akf0JImv5L48",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 105,
@@ -825,7 +825,7 @@
     "creation_date": "2013-05-05",
     "category": 11,
     "muscles": [4],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [1],
     "language": 2,
     "license": 1,
@@ -842,7 +842,7 @@
     "creation_date": "2013-05-05",
     "category": 11,
     "muscles": [4],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [3],
     "language": 2,
     "license": 1,
@@ -875,7 +875,7 @@
     "description": "<p>Preparation</p>\n<p>Stand on weight plate, bumper plate, or shallow elevated platform with loaded bar above feet. Squat down and grasp bar with shoulder width or slightly wider overhand or mixed grip.</p>\n<p> </p>\n<p>Execution</p>\n<p>Lift bar by extending hips and knees to full extension. Pull shoulders back at top of lift if rounded. Return weights to floor by bending hips back while allowing knees to bend forward, keeping back straight and knees pointed same direction as feet. Repeat.</p>\n<p> </p>\n<p>Comments</p>\n<p>Throughout lift, keep hips low, shoulders high, arms and back straight. Knees should point same direction as feet throughout movement. Keep bar close to body to improve mechanical leverage. Grip strength and strength endurance often limit ability to perform multiple reps at heavy resistances. Gym chalk, wrist straps, grip work, and mixed grip can be used to enhance grip. Mixed grip indicates one hand holding with overhand grip and other hand holding with underhand grip. Lever barbell jack can be used to lift barbell from floor for easier loading and unloading of weight plates.</p>\n<p>Barbell Deficit Deadlift emphasizes building strength through lowest portion of Deadlift. Target muscle is exercised isometrically. Heavy barbell deadlifts significantly engages Latissmus Dorsi. See Barbell Deficit Deadlift under Gluteus Maximus. Also see Deadlift Analysis.</p>",
     "creation_date": "2016-02-09",
     "category": 12,
-    "muscles": [],
+    "muscles": "",
     "muscles_secondary": [11, 8, 12, 6, 15],
     "equipment": [1],
     "language": 2,
@@ -892,8 +892,8 @@
     "description": "<p>You sit at the bench press device, back slightly tilted to the back. The bar should be about 20 cm in front of you. Then you push the bar and take it back again, as you would with a bench press.</p>\n<p>In this position you strain your chest muscles a lot less, which is nice if you want to train, but your chest hasn't recovered yet.</p>\n<p>Here's a link to a girl on a machine specialized for this exercise, to give a better description than my failing words above.</p>\n<p>http://www.schnell-online.de/db_imgs/products/img/t-80400.jpg</p>",
     "creation_date": "2015-06-12",
     "category": 13,
-    "muscles": [],
-    "muscles_secondary": [],
+    "muscles": "",
+    "muscles_secondary": "",
     "equipment": [8],
     "language": 2,
     "license": 2,
@@ -915,7 +915,7 @@
     "language": 2,
     "license": 3,
     "license_author": "BFad07",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 82,
@@ -928,7 +928,7 @@
     "category": 8,
     "muscles": [5],
     "muscles_secondary": [4, 6],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -944,7 +944,7 @@
     "creation_date": "2013-05-05",
     "category": 8,
     "muscles": [5],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [8],
     "language": 2,
     "license": 1,
@@ -978,7 +978,7 @@
     "creation_date": "2015-01-08",
     "category": 9,
     "muscles": [10],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [3],
     "language": 2,
     "license": 2,
@@ -1046,12 +1046,12 @@
     "creation_date": "2013-05-05",
     "category": 8,
     "muscles": [1],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 274,
@@ -1079,13 +1079,13 @@
     "description": "<p>En face</p>\n<ol>\n<li>Tirer</li>\n<li>relacher doucement</li>\n</ol>",
     "creation_date": "2016-09-05",
     "category": 11,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "geantvert",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 394,
@@ -1097,12 +1097,12 @@
     "creation_date": "2016-04-20",
     "category": 13,
     "muscles": [9],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "abeworld",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 303,
@@ -1114,8 +1114,8 @@
     "creation_date": "2015-02-06",
     "category": 10,
     "muscles": [14, 6],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "nate303303",
@@ -1131,8 +1131,8 @@
     "creation_date": "2013-05-05",
     "category": 11,
     "muscles": [4],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -1148,7 +1148,7 @@
     "creation_date": "2013-05-05",
     "category": 11,
     "muscles": [4],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [3],
     "language": 2,
     "license": 1,
@@ -1165,7 +1165,7 @@
     "creation_date": "2013-05-05",
     "category": 11,
     "muscles": [4],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [3],
     "language": 2,
     "license": 1,
@@ -1181,13 +1181,13 @@
     "description": "<p>Start at a standing position. Lift and move one foot forward until your front calf and thigh are at 90 degrees to one another. At the same time, bend your back leg forward while keeping the back foot in place. Return to starting position. Repeat with other leg.</p>",
     "creation_date": "2021-03-03",
     "category": 9,
-    "muscles": [],
-    "muscles_secondary": [],
+    "muscles": "",
+    "muscles_secondary": "",
     "equipment": [7],
     "language": 2,
     "license": 2,
     "license_author": "TheDarkerKnight",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 85,
@@ -1199,7 +1199,7 @@
     "creation_date": "2013-05-05",
     "category": 8,
     "muscles": [5],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [8, 3],
     "language": 2,
     "license": 1,
@@ -1216,7 +1216,7 @@
     "creation_date": "2013-05-05",
     "category": 8,
     "muscles": [5],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [8, 2],
     "language": 2,
     "license": 1,
@@ -1267,12 +1267,12 @@
     "creation_date": "2015-06-02",
     "category": 10,
     "muscles": [8, 14, 6],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [7],
     "language": 2,
     "license": 2,
     "license_author": "http://www.realsimple.com/health/fitness-exercise/",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 408,
@@ -1285,11 +1285,11 @@
     "category": 9,
     "muscles": [8],
     "muscles_secondary": [11],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "tdprice12",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 116,
@@ -1301,12 +1301,12 @@
     "creation_date": "2013-05-05",
     "category": 9,
     "muscles": [11],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 86,
@@ -1318,7 +1318,7 @@
     "creation_date": "2013-05-05",
     "category": 8,
     "muscles": [1],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [3],
     "language": 2,
     "license": 1,
@@ -1336,7 +1336,7 @@
     "category": 8,
     "muscles": [1],
     "muscles_secondary": [13],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -1351,13 +1351,13 @@
     "description": "<p>chrome Hand Flex Grip to build up forearms muscles</p>",
     "creation_date": "2015-03-07",
     "category": 8,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "vince63",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 807,
@@ -1369,12 +1369,12 @@
     "creation_date": "2020-05-11",
     "category": 13,
     "muscles": [9, 5],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [7],
     "language": 2,
     "license": 3,
     "license_author": "BFad07",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 166,
@@ -1386,8 +1386,8 @@
     "creation_date": "2013-06-22",
     "category": 10,
     "muscles": [6],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "robhoyt",
@@ -1404,11 +1404,11 @@
     "category": 8,
     "muscles": [1, 13, 5],
     "muscles_secondary": [2],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "GrosseHund",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 304,
@@ -1421,11 +1421,11 @@
     "category": 9,
     "muscles": [11, 7, 10, 15],
     "muscles_secondary": [14, 6, 3],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "nate303303",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 432,
@@ -1438,11 +1438,11 @@
     "category": 9,
     "muscles": [7, 10, 15],
     "muscles_secondary": [6],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 3,
     "license_author": "BNolet",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 164,
@@ -1455,11 +1455,11 @@
     "category": 13,
     "muscles": [2],
     "muscles_secondary": [8],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "Mahoney",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 650,
@@ -1472,7 +1472,7 @@
     "category": 9,
     "muscles": [10],
     "muscles_secondary": [8],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "Vilhelmo",
@@ -1493,7 +1493,7 @@
     "language": 2,
     "license": 2,
     "license_author": "James Mackay",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 854,
@@ -1505,12 +1505,12 @@
     "creation_date": "2020-10-31",
     "category": 9,
     "muscles": [8],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [1, 8],
     "language": 2,
     "license": 2,
     "license_author": "Bret Contreras",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 383,
@@ -1522,12 +1522,12 @@
     "creation_date": "2016-02-16",
     "category": 10,
     "muscles": [14, 6],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [4, 7],
     "language": 2,
     "license": 3,
     "license_author": "Behrooz",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 128,
@@ -1539,12 +1539,12 @@
     "creation_date": "2013-05-05",
     "category": 12,
     "muscles": [9],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 163,
@@ -1573,7 +1573,7 @@
     "creation_date": "2014-01-15",
     "category": 11,
     "muscles": [4],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [3, 9],
     "language": 2,
     "license": 1,
@@ -1590,7 +1590,7 @@
     "creation_date": "2014-02-01",
     "category": 11,
     "muscles": [4],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [3, 9],
     "language": 2,
     "license": 1,
@@ -1606,7 +1606,7 @@
     "description": "<ol>\n<li>Using a neutral grip, lean into an incline bench.</li>\n<li>Take a dumbbell in each hand with a neutral grip, beginning with the arms straight. This will be your starting position.</li>\n<li>Retract the shoulder blades and flex the elbows to row the dumbbells to your side.</li>\n<li>Pause at the top of the motion, and then return to the starting position.</li>\n</ol>",
     "creation_date": "2015-07-21",
     "category": 12,
-    "muscles": [],
+    "muscles": "",
     "muscles_secondary": [12],
     "equipment": [8, 3],
     "language": 2,
@@ -1625,11 +1625,11 @@
     "category": 10,
     "muscles": [6],
     "muscles_secondary": [14],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "Mahoney",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 168,
@@ -1642,7 +1642,7 @@
     "category": 11,
     "muscles": [4],
     "muscles_secondary": [11],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "kwrindy",
@@ -1663,7 +1663,7 @@
     "language": 2,
     "license": 2,
     "license_author": "cal.zabel",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 423,
@@ -1674,13 +1674,13 @@
     "description": "<p>Get your shoes on, go outside and start running at a moderate pace.</p>",
     "creation_date": "2016-10-01",
     "category": 9,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "Papazit",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 810,
@@ -1692,12 +1692,12 @@
     "creation_date": "2020-05-28",
     "category": 9,
     "muscles": [10],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "student1234",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 249,
@@ -1710,11 +1710,11 @@
     "category": 9,
     "muscles": [8],
     "muscles_secondary": [11],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "J120290,cerin",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 148,
@@ -1726,7 +1726,7 @@
     "creation_date": "2013-05-05",
     "category": 13,
     "muscles": [2],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [3],
     "language": 2,
     "license": 1,
@@ -1743,8 +1743,8 @@
     "creation_date": "2013-05-05",
     "category": 13,
     "muscles": [2],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -1760,7 +1760,7 @@
     "creation_date": "2015-02-06",
     "category": 13,
     "muscles": [2, 9],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [3],
     "language": 2,
     "license": 2,
@@ -1777,8 +1777,8 @@
     "creation_date": "2013-08-04",
     "category": 12,
     "muscles": [12],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "drthurlow",
@@ -1794,8 +1794,8 @@
     "creation_date": "2013-08-04",
     "category": 12,
     "muscles": [12],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "drthurlow",
@@ -1811,8 +1811,8 @@
     "creation_date": "2020-04-26",
     "category": 9,
     "muscles": [11, 8],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 3,
     "license_author": "BFad07",
@@ -1828,8 +1828,8 @@
     "creation_date": "2013-05-08",
     "category": 9,
     "muscles": [11],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -1845,8 +1845,8 @@
     "creation_date": "2013-05-05",
     "category": 9,
     "muscles": [11],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -1862,8 +1862,8 @@
     "creation_date": "2013-05-05",
     "category": 9,
     "muscles": [11],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -1879,12 +1879,12 @@
     "creation_date": "2020-04-26",
     "category": 9,
     "muscles": [10],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 3,
     "license_author": "BFad07",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 804,
@@ -1896,12 +1896,12 @@
     "creation_date": "2020-05-11",
     "category": 9,
     "muscles": [10],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 3,
     "license_author": "BFad07",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 177,
@@ -1913,12 +1913,12 @@
     "creation_date": "2013-07-19",
     "category": 9,
     "muscles": [10],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "kwrindy",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 788,
@@ -1931,7 +1931,7 @@
     "category": 9,
     "muscles": [11, 7, 8, 10],
     "muscles_secondary": [7, 8],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 3,
     "license_author": "BFad07",
@@ -1948,7 +1948,7 @@
     "category": 9,
     "muscles": [10],
     "muscles_secondary": [8],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -1965,7 +1965,7 @@
     "category": 9,
     "muscles": [10],
     "muscles_secondary": [8],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -1981,8 +1981,8 @@
     "creation_date": "2013-05-05",
     "category": 9,
     "muscles": [10],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -1998,12 +1998,12 @@
     "creation_date": "2020-04-26",
     "category": 9,
     "muscles": [14, 6],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 3,
     "license_author": "BFad07",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 125,
@@ -2033,7 +2033,7 @@
     "category": 10,
     "muscles": [6],
     "muscles_secondary": [3],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -2049,8 +2049,8 @@
     "creation_date": "2014-02-01",
     "category": 11,
     "muscles": [4],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "tuckerm",
@@ -2066,8 +2066,8 @@
     "creation_date": "2014-02-01",
     "category": 12,
     "muscles": [12],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "tuckerm",
@@ -2082,13 +2082,13 @@
     "description": "<p>Hold the L position for as long as possible</p>",
     "creation_date": "2014-10-30",
     "category": 10,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "bizyguy",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 143,
@@ -2101,11 +2101,11 @@
     "category": 12,
     "muscles": [12],
     "muscles_secondary": [1, 13],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 144,
@@ -2118,11 +2118,11 @@
     "category": 12,
     "muscles": [12],
     "muscles_secondary": [1, 13],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 389,
@@ -2134,7 +2134,7 @@
     "creation_date": "2016-03-11",
     "category": 9,
     "muscles": [8, 10],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [1],
     "language": 2,
     "license": 2,
@@ -2150,13 +2150,13 @@
     "description": "<p>This is an excercise for problems with the levator muscles. Primary  Infraspinatus, secondary Teres Minor.</p>\n<p>Lying on side. Keep elbow on waist and in 90 dgr angle. Rotate towards stomach. Add weight as fit.</p>",
     "creation_date": "2015-02-22",
     "category": 13,
-    "muscles": [],
-    "muscles_secondary": [],
+    "muscles": "",
+    "muscles_secondary": "",
     "equipment": [3],
     "language": 2,
     "license": 2,
     "license_author": "Trix",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 141,
@@ -2168,12 +2168,12 @@
     "creation_date": "2013-05-05",
     "category": 12,
     "muscles": [12],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 229,
@@ -2201,13 +2201,13 @@
     "description": "<p>On an SZ-bar grip your hands on the outside of each bend and stand with your arms straight down, palms facing your legs. Pull the bar (bending your arms at the elbow) to your chest, and the push the bar above your head (arms as straight as possible). Return the bar to your chest by dropping your arms at the elbows. Return the bar to it's origional position (stand with your arms straight down, palms facing your legs.)</p>",
     "creation_date": "2014-06-12",
     "category": 8,
-    "muscles": [],
-    "muscles_secondary": [],
+    "muscles": "",
+    "muscles_secondary": "",
     "equipment": [2],
     "language": 2,
     "license": 1,
     "license_author": "mbozi1",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 626,
@@ -2219,12 +2219,12 @@
     "creation_date": "2019-02-01",
     "category": 12,
     "muscles": [1, 11],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [6],
     "language": 2,
     "license": 2,
     "license_author": "arson",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 93,
@@ -2236,8 +2236,8 @@
     "creation_date": "2013-05-05",
     "category": 10,
     "muscles": [6],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -2253,12 +2253,12 @@
     "creation_date": "2013-09-22",
     "category": 10,
     "muscles": [1],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "ThisGirl0819",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 355,
@@ -2269,9 +2269,9 @@
     "description": "<p>The barbell is held overhead in a wide-arm snatch grip; however, it is also possible to use a closer grip if balance allows.</p>",
     "creation_date": "2015-11-22",
     "category": 9,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "geraldbaeck",
@@ -2321,8 +2321,8 @@
     "creation_date": "2013-07-30",
     "category": 11,
     "muscles": [4],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "OGhTebfCxhexZXuf35mUxV9C--A",
@@ -2343,7 +2343,7 @@
     "language": 2,
     "license": 2,
     "license_author": "Nash",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 160,
@@ -2356,7 +2356,7 @@
     "category": 9,
     "muscles": [11, 8],
     "muscles_secondary": [2, 1, 13],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "minifigmaster125",
@@ -2377,7 +2377,7 @@
     "language": 2,
     "license": 1,
     "license_author": "YYCfit / BFad07",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 189,
@@ -2390,11 +2390,11 @@
     "category": 13,
     "muscles": [4],
     "muscles_secondary": [10],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "sistab2",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 193,
@@ -2407,7 +2407,7 @@
     "category": 8,
     "muscles": [13],
     "muscles_secondary": [13],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "cgoob883",
@@ -2423,12 +2423,12 @@
     "creation_date": "2016-10-26",
     "category": 12,
     "muscles": [9],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "donaddon",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 107,
@@ -2445,7 +2445,7 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 140,
@@ -2458,11 +2458,11 @@
     "category": 12,
     "muscles": [12],
     "muscles_secondary": [2, 1, 9],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 190,
@@ -2475,7 +2475,7 @@
     "category": 13,
     "muscles": [9],
     "muscles_secondary": [8],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "sistab2",
@@ -2513,7 +2513,7 @@
     "language": 2,
     "license": 1,
     "license_author": "maxamillion1414",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 161,
@@ -2526,7 +2526,7 @@
     "category": 12,
     "muscles": [8],
     "muscles_secondary": [1],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "Mahoney",
@@ -2541,8 +2541,8 @@
     "description": "<p>Seated on a bench bWith the dumbbells on the floor bend over at 45 Degrees and then slowly raise each dumbbell to shoulder height and hold for a couple seconds before lowering to the starting position. </p>\n<p> </p>",
     "creation_date": "2014-03-30",
     "category": 13,
-    "muscles": [],
-    "muscles_secondary": [],
+    "muscles": "",
+    "muscles_secondary": "",
     "equipment": [3],
     "language": 2,
     "license": 1,
@@ -2559,7 +2559,7 @@
     "creation_date": "2019-12-03",
     "category": 12,
     "muscles": [12, 9],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [3],
     "language": 2,
     "license": 3,
@@ -2576,7 +2576,7 @@
     "creation_date": "2014-01-15",
     "category": 8,
     "muscles": [1],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [2],
     "language": 2,
     "license": 1,
@@ -2598,7 +2598,7 @@
     "language": 2,
     "license": 3,
     "license_author": "BFad07",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 399,
@@ -2626,13 +2626,13 @@
     "description": "<p>Plank with stomach towards ceiling</p>",
     "creation_date": "2016-07-31",
     "category": 10,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "spacetowaste",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 360,
@@ -2644,8 +2644,8 @@
     "creation_date": "2016-01-04",
     "category": 8,
     "muscles": [5],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "Nash",
@@ -2660,13 +2660,13 @@
     "description": "<p>Crunches on roman chair</p>",
     "creation_date": "2014-07-22",
     "category": 10,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "MaddieBeasley",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 351,
@@ -2677,8 +2677,8 @@
     "description": "<p>DL from top to pos 2: https://www.youtube.com/watch?v=WtWtjViRsKo</p>",
     "creation_date": "2015-10-19",
     "category": 9,
-    "muscles": [],
-    "muscles_secondary": [],
+    "muscles": "",
+    "muscles_secondary": "",
     "equipment": [1],
     "language": 2,
     "license": 2,
@@ -2700,7 +2700,7 @@
     "language": 2,
     "license": 3,
     "license_author": "BFad07",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 142,
@@ -2712,8 +2712,8 @@
     "creation_date": "2013-05-05",
     "category": 12,
     "muscles": [12],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -2729,8 +2729,8 @@
     "creation_date": "2013-05-05",
     "category": 12,
     "muscles": [12],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -2747,7 +2747,7 @@
     "category": 12,
     "muscles": [12],
     "muscles_secondary": [2, 1, 13],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -2762,13 +2762,13 @@
     "description": "<p>Running or jogging outside in a park, on the tracks,...</p>",
     "creation_date": "2016-05-11",
     "category": 9,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "BeLikeWater",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 398,
@@ -2779,13 +2779,13 @@
     "description": "<p>Run and do some interval trainings such as hill repat, fartlek,..</p>",
     "creation_date": "2016-05-11",
     "category": 9,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "BeLikeWater",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 269,
@@ -2796,13 +2796,13 @@
     "description": "<p>Run on a treadmill</p>",
     "creation_date": "2014-09-03",
     "category": 9,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "foguinho.peruca",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 879,
@@ -2819,7 +2819,7 @@
     "language": 2,
     "license": 2,
     "license_author": "lbelavoi",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 631,
@@ -2831,8 +2831,8 @@
     "creation_date": "2019-03-07",
     "category": 10,
     "muscles": [6],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "vkylamba",
@@ -2848,7 +2848,7 @@
     "creation_date": "2016-02-26",
     "category": 8,
     "muscles": [5],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [8, 3],
     "language": 2,
     "license": 2,
@@ -2865,8 +2865,8 @@
     "creation_date": "2015-07-21",
     "category": 12,
     "muscles": [12],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "cal.zabel",
@@ -2882,12 +2882,12 @@
     "creation_date": "2020-05-10",
     "category": 13,
     "muscles": [2],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [3],
     "language": 2,
     "license": 3,
     "license_author": "BFad07",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 119,
@@ -2899,7 +2899,7 @@
     "creation_date": "2013-05-05",
     "category": 13,
     "muscles": [2],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [1],
     "language": 2,
     "license": 1,
@@ -2916,7 +2916,7 @@
     "creation_date": "2013-05-05",
     "category": 13,
     "muscles": [2],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [3],
     "language": 2,
     "license": 1,
@@ -2933,8 +2933,8 @@
     "creation_date": "2013-05-05",
     "category": 13,
     "muscles": [2],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -2950,8 +2950,8 @@
     "creation_date": "2013-05-08",
     "category": 13,
     "muscles": [2],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -2967,12 +2967,12 @@
     "creation_date": "2020-05-11",
     "category": 13,
     "muscles": [9],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [1, 3],
     "language": 2,
     "license": 3,
     "license_author": "BFad07",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 150,
@@ -2984,12 +2984,12 @@
     "creation_date": "2013-05-05",
     "category": 13,
     "muscles": [2],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [1],
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 151,
@@ -3001,12 +3001,12 @@
     "creation_date": "2013-05-05",
     "category": 13,
     "muscles": [2],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [3],
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 176,
@@ -3040,7 +3040,7 @@
     "language": 2,
     "license": 1,
     "license_author": "GiglioRosso",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 422,
@@ -3051,13 +3051,13 @@
     "description": "<p>With a weight in one hand, lie on your side opposite the weight. Keep your knees slightly bent. Hold your elbow against your side, and extend your upper arm straight ahead of you. While continuing to hold your elbow against your side, rotate your upper arm 90 degrees upwards.</p>\n<p>It is helpful to place a towel under your armpit to help with the form on this exercise. Placing a support under your head for the duration of the exercise is also a good idea.</p>",
     "creation_date": "2016-09-29",
     "category": 13,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "apeschel",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 325,
@@ -3074,7 +3074,7 @@
     "language": 2,
     "license": 2,
     "license_author": "http://www.bodybuilding.com/",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 319,
@@ -3085,13 +3085,13 @@
     "description": "<p>Stand up or sit , keep both weights in front against legs or at side. Keep arms at around a 90 degree angle. Lift elbows up slowly and squeese traps when at topmost position. Lower the weights slowly back to starting position.</p>\n<p>2 seconds up, 2 seconds down</p>",
     "creation_date": "2015-03-15",
     "category": 13,
-    "muscles": [],
-    "muscles_secondary": [],
+    "muscles": "",
+    "muscles_secondary": "",
     "equipment": [1],
     "language": 2,
     "license": 3,
     "license_author": "tobahl",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 302,
@@ -3103,8 +3103,8 @@
     "creation_date": "2015-02-06",
     "category": 11,
     "muscles": [2, 14, 4, 5],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "nate303303",
@@ -3120,7 +3120,7 @@
     "creation_date": "2014-01-15",
     "category": 8,
     "muscles": [1],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [3],
     "language": 2,
     "license": 1,
@@ -3138,7 +3138,7 @@
     "category": 14,
     "muscles": [15],
     "muscles_secondary": [7],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -3154,8 +3154,8 @@
     "creation_date": "2013-05-05",
     "category": 10,
     "muscles": [6],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -3171,12 +3171,12 @@
     "creation_date": "2016-08-15",
     "category": 14,
     "muscles": [7],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "Cerin",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 218,
@@ -3189,7 +3189,7 @@
     "category": 8,
     "muscles": [5],
     "muscles_secondary": [4],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "tuckerm",
@@ -3205,12 +3205,12 @@
     "creation_date": "2014-09-08",
     "category": 13,
     "muscles": [2],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [1],
     "language": 2,
     "license": 3,
     "license_author": "Mens Fitness",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 328,
@@ -3221,9 +3221,9 @@
     "description": "<p>Deadlift with short (&lt;1min) rest between sets.</p>",
     "creation_date": "2015-06-11",
     "category": 9,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "MrSteele",
@@ -3239,8 +3239,8 @@
     "creation_date": "2013-07-06",
     "category": 10,
     "muscles": [14],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "djblitzd",
@@ -3256,8 +3256,8 @@
     "creation_date": "2013-07-30",
     "category": 9,
     "muscles": [10],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "OGhTebfCxhexZXuf35mUxV9C--A",
@@ -3290,7 +3290,7 @@
     "creation_date": "2020-04-26",
     "category": 9,
     "muscles": [8, 10, 6, 15],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [7],
     "language": 2,
     "license": 3,
@@ -3325,7 +3325,7 @@
     "category": 14,
     "muscles": [7],
     "muscles_secondary": [15],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -3340,13 +3340,13 @@
     "description": "<p>Grab a wrist roller tool with both hands while standing with your feet about shoulder width apart. If your gym does not have a wrist roller tool, you can easily put one together. All you need is a 5 or 10 pound weight plate, a strong thin rope about 3 feet long and a 6-8 inch stick or bar. Securely fasten the rope to the middle of the bar/stick and tie the other end of the rope to the weight plate. To begin this exercise, grab the bar/stick with both hands using an overhand grip. Extend both arms straight out in front of you, parallel to the floor. Next, roll the weight up from the floor by rapidly twisting the bar/stick with your hands and wrists. Once the weight reaches the top, slowly lower the plate back to the floor by reversing the motion of your hands and wrists. Repeat (if you can!).</p>",
     "creation_date": "2016-02-15",
     "category": 8,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "pwiltrout",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 293,
@@ -3357,13 +3357,13 @@
     "description": "<p>Ride a Stationary Bike with various tensions.</p>",
     "creation_date": "2014-12-17",
     "category": 9,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "intelman",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 209,
@@ -3393,7 +3393,7 @@
     "category": 12,
     "muscles": [12],
     "muscles_secondary": [5],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "tuckerm",
@@ -3410,7 +3410,7 @@
     "category": 12,
     "muscles": [12],
     "muscles_secondary": [5],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "tuckerm",
@@ -3426,12 +3426,12 @@
     "creation_date": "2018-03-13",
     "category": 9,
     "muscles": [10],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "magdy",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 570,
@@ -3443,12 +3443,12 @@
     "creation_date": "2018-05-09",
     "category": 9,
     "muscles": [8, 10],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [1],
     "language": 2,
     "license": 2,
     "license_author": "sophialj",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 330,
@@ -3460,12 +3460,12 @@
     "creation_date": "2015-06-22",
     "category": 12,
     "muscles": [8, 12],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [4],
     "language": 2,
     "license": 2,
     "license_author": "baldurmen",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 396,
@@ -3482,7 +3482,7 @@
     "language": 2,
     "license": 3,
     "license_author": "BeLikeWater",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 279,
@@ -3494,12 +3494,12 @@
     "creation_date": "2014-10-22",
     "category": 8,
     "muscles": [5],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [3],
     "language": 2,
     "license": 1,
     "license_author": "http://www.bodybuilding.com/",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 186,
@@ -3512,7 +3512,7 @@
     "category": 8,
     "muscles": [5],
     "muscles_secondary": [2],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "Horal_cz",
@@ -3528,8 +3528,8 @@
     "creation_date": "2013-06-21",
     "category": 8,
     "muscles": [5],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "Mahoney",
@@ -3545,8 +3545,8 @@
     "creation_date": "2013-05-05",
     "category": 8,
     "muscles": [5],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -3562,8 +3562,8 @@
     "creation_date": "2013-05-05",
     "category": 8,
     "muscles": [5],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
@@ -3579,12 +3579,12 @@
     "creation_date": "2013-05-05",
     "category": 8,
     "muscles": [5],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 310,
@@ -3597,11 +3597,11 @@
     "category": 10,
     "muscles": [14],
     "muscles_secondary": [12],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "Robertcoop",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 318,
@@ -3618,7 +3618,7 @@
     "language": 2,
     "license": 2,
     "license_author": "dookie1481",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 212,
@@ -3631,7 +3631,7 @@
     "category": 12,
     "muscles": [12],
     "muscles_secondary": [1],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "tuckerm",
@@ -3652,7 +3652,7 @@
     "language": 2,
     "license": 2,
     "license_author": "Vazco",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 258,
@@ -3664,12 +3664,12 @@
     "creation_date": "2014-07-01",
     "category": 11,
     "muscles": [14],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [6],
     "language": 2,
     "license": 1,
     "license_author": "http://www.carinatum.com/",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 147,
@@ -3682,11 +3682,11 @@
     "category": 13,
     "muscles": [2, 9],
     "muscles_secondary": [1],
-    "equipment": [],
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 127,
@@ -3703,7 +3703,7 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 311,
@@ -3720,7 +3720,7 @@
     "language": 2,
     "license": 2,
     "license_author": "koreyhinton",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 424,
@@ -3731,9 +3731,9 @@
     "description": "<p>Pulldowns using close grip v-bar.</p>",
     "creation_date": "2016-10-06",
     "category": 12,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "apeschel",
@@ -3748,13 +3748,13 @@
     "description": "<p>Handstand against a wall for support (chest facing wall).</p>",
     "creation_date": "2016-01-04",
     "category": 13,
-    "muscles": [],
-    "muscles_secondary": [],
+    "muscles": "",
+    "muscles_secondary": "",
     "equipment": [7],
     "language": 2,
     "license": 2,
     "license_author": "Nash",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 203,
@@ -3771,7 +3771,7 @@
     "language": 2,
     "license": 1,
     "license_author": "Dexter",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 548,
@@ -3783,12 +3783,12 @@
     "creation_date": "2018-02-07",
     "category": 12,
     "muscles": [1, 11, 4, 9, 5],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [7],
     "language": 2,
     "license": 2,
     "license_author": "Whythebigpaws",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 387,
@@ -3800,7 +3800,7 @@
     "creation_date": "2016-02-29",
     "category": 9,
     "muscles": [11, 10],
-    "muscles_secondary": [],
+    "muscles_secondary": "",
     "equipment": [7],
     "language": 2,
     "license": 3,
@@ -3816,13 +3816,13 @@
     "description": "<p>Seated with your back against a wall, put the bottoms of your feet together and add weight plates to your knees to deepen the butterfly stretch. Hold this for at least a minute or until youve comfortably elongated the groin and hip flexor. </p>",
     "creation_date": "2021-05-19",
     "category": 9,
-    "muscles": [],
-    "muscles_secondary": [],
+    "muscles": "",
+    "muscles_secondary": "",
     "equipment": [3],
     "language": 2,
     "license": 2,
     "license_author": "FourTwennyFitness",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 320,
@@ -3833,13 +3833,13 @@
     "description": "<p>Box step-ups w/ barbell, 45's on each side</p>",
     "creation_date": "2015-04-07",
     "category": 9,
-    "muscles": [],
-    "muscles_secondary": [],
+    "muscles": "",
+    "muscles_secondary": "",
     "equipment": [1],
     "language": 2,
     "license": 2,
     "license_author": "jigglychipmunk",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 321,
@@ -3850,13 +3850,13 @@
     "description": "<p>box step ups w/ barbell and 45's on each side</p>",
     "creation_date": "2015-04-07",
     "category": 9,
-    "muscles": [],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles": "",
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 3,
     "license_author": "jigglychipmunk",
-    "variations": []
+    "variations": ""
   },
   {
     "id": 204,
@@ -3868,8 +3868,8 @@
     "creation_date": "2014-01-13",
     "category": 12,
     "muscles": [12],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 1,
     "license_author": "tuckerm",
@@ -3885,8 +3885,8 @@
     "creation_date": "2015-02-06",
     "category": 8,
     "muscles": [1, 13],
-    "muscles_secondary": [],
-    "equipment": [],
+    "muscles_secondary": "",
+    "equipment": "",
     "language": 2,
     "license": 2,
     "license_author": "nate303303",

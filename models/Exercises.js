@@ -31,10 +31,10 @@ Exercises.init(
       allowNull: true,
     },
     creation_date: {
-      type: DataTypes.DATE,
+      type: DataTypes.DATEONLY,
       allowNull: true,
     },
-    category: {
+    category_id: {
       type: DataTypes.INTEGER,
       references: {
         model: 'categories',
@@ -42,15 +42,15 @@ Exercises.init(
       },
     },
     muscles: {
-      type: DataTypes.STRING,
+      type: DataTypes.JSON,
       allowNull: true,
     },
     muscles_secondary: {
-      type: DataTypes.STRING,
+      type: DataTypes.JSON,
       allowNull: true,
     },
     equipment: {
-      type: DataTypes.STRING,
+      type: DataTypes.JSON,
       allowNull: true,
     },
     language: {
@@ -66,7 +66,7 @@ Exercises.init(
       allowNull: true,
     },
     variations: {
-      type: DataTypes.STRING,
+      type: DataTypes.JSON,
       allowNull: true,
     },
   },
