@@ -30,7 +30,7 @@ router.get('/exercise', async (req, res) => {
   // Find all exercises in a given category
   try {
     const exerciseData = await Exercises.findAll({
-      where:{ category_id: 8 },
+      where:{ category_id: 8 }, // Can be replaced with a parameter passed in
       order: [['name', 'ASC']],
       include: [
         {
@@ -40,7 +40,7 @@ router.get('/exercise', async (req, res) => {
         
       ],
     });
-    console.log(JSON.stringify(exerciseData)); // To view the details of the exerciseData object. 
+    // console.log(JSON.stringify(exerciseData)); // To view the details of the exerciseData object. 
     
     const exercises = exerciseData.map((exercise) => exercise.get({ plain: true}));
 
