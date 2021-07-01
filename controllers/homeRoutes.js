@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Exercises, Categories } = require('../models');
+const { Exercises, Categories, User } = require('../models');
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
@@ -17,21 +17,22 @@ router.get('/', async (req, res) => {
     // Serialize data so the template can read it
     const categories = categoryData.map((category) => category.get({ plain: true }));
 
+    console.log(req.session.logged_in);
+    console.log(req.session.user_id);
     // Pass serialized data and session flag into template
     res.render('homepage', { 
       categories, 
-      logged_in: req.session.logged_in 
+      logged_in: req.session.logged_in
     });
   } catch (err) {
     res.status(500).json(err);
   }
 });
 
-router.get('/exercise/:id', async (req, res) => {
+router.get('/exercise', async (req, res) => {
   // Find all exercises in a given category
   try {
     const exerciseData = await Exercises.findAll({
-      where:{ id: req.params.id },
       include: [
         {
           model: Categories,
@@ -42,9 +43,9 @@ router.get('/exercise/:id', async (req, res) => {
     });
     // console.log(JSON.stringify(exerciseData)); // To view the details of the nested comment object. 
     
-    const exercise = exerciseData.get({ plain: true });
+    const exercises = exerciseData.get({ plain: true });
     res.render('exercise', {
-      ...exercise,
+      ...exercises,
       logged_in: req.session.logged_in
     });
   } catch (err) {
@@ -54,12 +55,17 @@ router.get('/exercise/:id', async (req, res) => {
 
 // Use withAuth middleware to prevent access to route
 router.get('/profile', withAuth, async (req, res) => {
+
+  console.log(req.session.logged_in);
+  console.log(req.session.user_id);
+
   try {
     // Find the logged in user based on the session ID
     const userData = await User.findByPk(req.session.user_id, {
       attributes: { exclude: ['password'] },
-      include: [{ model: Categories }],
     });
+
+    console.log(JSON.stringify(userData));
 
     const user = userData.get({ plain: true });
     res.render('profile', {

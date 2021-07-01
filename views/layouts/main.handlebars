@@ -11,9 +11,20 @@
 </head>
 
 <body>
-  <header class="container-fluid text-light text-center mt-3 sticky-top">
+  <header class="container-fluid text-dark text-center mt-3 sticky-top">
     <div class="row">
-    
+        <h1 class="mb-2">Applicatoin Title....</h1>
+      <nav class="text-light p-2">
+        <a href="/">Home</a>
+        {{#if logged_in}}
+          <a href="/profile">Profile</a>
+          <a href="/login" id="logout">Logout</a>
+        {{else}}
+          <a href="/login">Profile</a>
+          <a href="/login">Login</a>
+          <a href="/login" id="logout">Logout</a>
+        {{/if}}
+      </nav>
     </div>
   </header>
 
@@ -27,7 +38,7 @@
   </script>
 
   {{#if logged_in}}
-    <script src="/js/blanks.js"></script>
+    <script src="/js/logout.js"></script>
   {{/if}}  
 </body>
 
