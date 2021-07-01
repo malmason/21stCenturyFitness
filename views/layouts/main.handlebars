@@ -1,0 +1,19 @@
+  <div class="col-md-5">
+    <h2>
+      
+      {{{exerciseDisplay}}}
+      <a href="/exercise/{{exercise.id}}">{{exercise.name}}</a>
+    </h2>
+    <p>
+      <span for="img" aria-label="money">💲</span>
+   
+      <span class="instructions">{{ exercise.instructions}}</span>
+      
+    </p>
+    <p>Created by {{exercise.user.name}} on {{format_date exercise.list_created}}</p>
+  </div>
+  <div class="col-md-7">
+    <p>
+      {{exercise.description}}
+    </p>
+  </div>
