@@ -16,9 +16,6 @@ router.get('/', async (req, res) => {
 
     // Serialize data so the template can read it
     const categories = categoryData.map((category) => category.get({ plain: true }));
-
-    console.log(req.session.logged_in);
-    console.log(req.session.user_id);
     // Pass serialized data and session flag into template
     res.render('homepage', { 
       categories, 
@@ -33,6 +30,8 @@ router.get('/exercise', async (req, res) => {
   // Find all exercises in a given category
   try {
     const exerciseData = await Exercises.findAll({
+      where:{ category_id: 8 },
+      order: [['name', 'ASC']],
       include: [
         {
           model: Categories,
@@ -41,11 +40,12 @@ router.get('/exercise', async (req, res) => {
         
       ],
     });
-    // console.log(JSON.stringify(exerciseData)); // To view the details of the nested comment object. 
+    console.log(JSON.stringify(exerciseData)); // To view the details of the exerciseData object. 
     
-    const exercises = exerciseData.get({ plain: true });
+    const exercises = exerciseData.map((exercise) => exercise.get({ plain: true}));
+
     res.render('exercise', {
-      ...exercises,
+      exercises,
       logged_in: req.session.logged_in
     });
   } catch (err) {
@@ -55,9 +55,6 @@ router.get('/exercise', async (req, res) => {
 
 // Use withAuth middleware to prevent access to route
 router.get('/profile', withAuth, async (req, res) => {
-
-  console.log(req.session.logged_in);
-  console.log(req.session.user_id);
 
   try {
     // Find the logged in user based on the session ID
