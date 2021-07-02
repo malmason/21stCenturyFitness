@@ -246,7 +246,8 @@
     "language": 2,
     "license": 2,
     "license_author": "warchildmd",
-    "variations": [412, 362, 109, 110, 340, 214, 202, 670, 142, 108, 106, 339]
+    "variations": [412, 362, 109, 110, 340, 214, 202, 670, 142, 108, 106, 339],
+    "gif_image": "bentoverbarbellrow.gif"
   },
   {
     "id": 362,
@@ -297,7 +298,8 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": [412, 362, 109, 110, 340, 214, 202, 670, 142, 108, 106, 339]
+    "variations": [412, 362, 109, 110, 340, 214, 202, 670, 142, 108, 106, 339],
+    "gif_image": "bentoverbarbellrow.gif"
   },
   {
     "id": 110,
@@ -314,7 +316,8 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": [412, 362, 109, 110, 340, 214, 202, 670, 142, 108, 106, 339]
+    "variations": [412, 362, 109, 110, 340, 214, 202, 670, 142, 108, 106, 339],
+    "gif_image": "bentoverreverse.gif"
   },
   {
     "id": 74,
@@ -436,7 +439,8 @@
     "language": 2,
     "license": 2,
     "license_author": "er0355",
-    "variations": []
+    "variations": [],
+    "gif_image": "burpee.gif"
   },
   {
     "id": 98,
@@ -3323,7 +3327,8 @@
     "language": 2,
     "license": 3,
     "license_author": "BFad07",
-    "variations": [407, 342, 300, 191, 650, 389, 355, 160, 185, 111, 795, 387]
+    "variations": [407, 342, 300, 191, 650, 389, 355, 160, 185, 111, 795, 387],
+    "gif_image": "squats.gif"
   },
   {
     "id": 768,

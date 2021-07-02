@@ -1,9 +1,9 @@
 <div class="container">
   
-  <h2 class="mt-2">Create Workout</h2>
+  <h2 class="mt-2 text-center">Create Workout</h2>
 
-  <div class="row justify-content-between">
-    <div class="create-workout col col-md-8">
+  <div class="row justify-content-center">
+    <div class="create-workout col col-md-8 text-start">
       <form class="form workout-form">
           <div class="form-group mb-2">
           <label for="workout-title" class="form-label">Title</label>
@@ -15,7 +15,7 @@
       </form>
     </div>
 
-    <h2 class="mt-2">Exercises</h2>
+    <h2 class="mt-2 text-center">Exercises</h2>
 
     <div class="accordion accordion-flush col col-md-8" id="exercise_accordion">
       {{#each categories as |category|}}
@@ -27,15 +27,17 @@
           </h2>
 
           <div id="category{{id}}" class="accordion-collapse collapse" aria-labelledby="{{id}}" data-bs-parent="#exercise_accordion">
-            <div class="accordion-body 1h-sm">
+            <div class="accordion-body">
               {{#each exercises as |exercise|}}
                 <ul class="list-group">
-                  <li class="list-group-item">
+                  <li class="list-group-item lh-sm">
                     <input type="checkbox" class="form-check-input me-1" value={{exercise.id}}>
                     <h4>{{exercise.name}}</h4>
                     {{{exercise.description}}}
                     {{#if exercise.gif_image}}
-                      <img src="./images/{{gif_image}}" alt="{{name}}" class="gifImage img-fluid float-end">
+                      <div class="exercise-image">
+                         <img src="./images/{{gif_image}}" alt="{{name}}" class="gifImage img-fluid float-end">
+                      </div>
                     {{/if}}
                   </li>
                 </ul>

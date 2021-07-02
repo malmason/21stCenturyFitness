@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const sequelize = require('../config/connection');
 const { Exercises, Categories, User, ExerciseImage, Muscles } = require('../models');
 const withAuth = require('../utils/auth');
 
@@ -30,7 +31,7 @@ router.get('/exercise', async (req, res) => {
   try {
     const exerciseData = await Categories.findAll({
       // where:{ category_id: 9 }, // Can be replaced with a parameter passed in
-      order: [['name', 'ASC']],
+      order: [['name', 'ASC'], [Exercises, 'name', 'ASC']],
       include: [
         {
           model: Exercises,
@@ -39,7 +40,7 @@ router.get('/exercise', async (req, res) => {
         
       ],
     });
-    // console.log(JSON.stringify(exerciseData)); // To view the details of the exerciseData object. 
+    console.log(JSON.stringify(exerciseData)); // To view the details of the exerciseData object. 
     
     const categories = exerciseData.map((exercise) => exercise.get({ plain: true}));
 
