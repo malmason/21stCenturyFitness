@@ -28,23 +28,23 @@ router.get('/', async (req, res) => {
 
 router.get('/exercise', async (req, res) => {
   try {
-    const exerciseData = await Exercises.findAll({
+    const exerciseData = await Categories.findAll({
       // where:{ category_id: 9 }, // Can be replaced with a parameter passed in
       order: [['name', 'ASC']],
       include: [
         {
-          model: Categories,
-          attributes: ['name'],
+          model: Exercises,
+          attributes: ['name','description','id','gif_image'],
         },
         
       ],
     });
     // console.log(JSON.stringify(exerciseData)); // To view the details of the exerciseData object. 
     
-    const exercises = exerciseData.map((exercise) => exercise.get({ plain: true}));
+    const categories = exerciseData.map((exercise) => exercise.get({ plain: true}));
 
     res.render('exercise', {
-      exercises,
+      categories,
       logged_in: req.session.logged_in
     });
   } catch (err) {
