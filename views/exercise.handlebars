@@ -1,14 +1,55 @@
-<h2>Sample data from the exercise table for Arms</h2>
+<h2>Exercises</h2>
+
+<ul class="list-inline exercise-list">
+  <li class="category list-inline-item">
+    <input type="radio" name="Categories" class="form-check-input me-1" value=8>
+    Arms
+  </li>
+   <li class="category list-inline-item">
+    <input type="radio" name="Categories" class="form-check-input me-1" value=9>
+    Legs
+  </li>
+   <li class="category list-inline-item">
+    <input type="radio" name="Categories" class="form-check-input me-1" value=10>
+    Abs
+  </li>
+   <li class="category list-inline-item">
+    <input type="radio" name="Categories" class="form-check-input me-1" value=11>
+    Chest
+  </li>
+   <li class="category list-inline-item">
+    <input type="radio" name="Categories" class="form-check-input me-1" value=12>
+    Back
+  </li>
+   <li class="category list-inline-item">
+    <input type="radio" name="Categories" class="form-check-input me-1" value=13>
+    Shoulders
+  </li>
+   <li class="category list-inline-item">
+    <input type="radio" name="Categories" class="form-check-input me-1" value=14>
+    Calves
+  </li>
+</ul>
 
 <div class="row">
-  <div class="col-4">
+  <div class="accordion col-5" id="exercise_accordion">
      {{#each exercises as |exercise| }}
-        <ul class="list-group">
-          <li class="list-group-item">
-            <input type="checkbox" class="form-check-input me-1" value={{id}}>
+      <div class="accordion-item category{{category_id}}">
+        <h2 class="accordion-header" id={{id}}>
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exercise{{id}}" aria-expanded="false" aria-controls="exercise{{id}}">
             {{name}}
-          </li>  
-      </ul>
+          </button>
+        </h2>
+        <div id="exercise{{id}}"" class="accordion-collapse collapse" aria-labelledby={{id}} data-bs-parent="#exercise_accordion">
+          <div class="accordion-body">
+            {{{description}}}
+          </div>
+        </div>
+      </div>
      {{/each}}
   </div>
 </div> 
+
+<script src="./js/exercise.js"></script>
+
+    

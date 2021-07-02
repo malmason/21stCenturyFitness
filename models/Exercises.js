@@ -20,7 +20,7 @@ Exercises.init(
     },
     exercise_base: {
       type: DataTypes.INTEGER,
-      allowNull: true,
+      allowNull: false,
     },
     status: {
       type: DataTypes.STRING,

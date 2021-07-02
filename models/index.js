@@ -1,6 +1,8 @@
 const User = require('./User');
 const Categories = require('./Categories');
 const Exercises = require('./Exercises');
+const Muscles = require('./Muscles');
+const ExerciseImage = require('./ExerciseImage');
 
 
 Exercises.belongsTo(Categories, {
@@ -13,9 +15,10 @@ Categories.hasMany(Exercises, {
  onUpdate: 'CASCADE',
 });
 
-
 module.exports = {
   User,
   Categories,
   Exercises,
+  Muscles,
+  ExerciseImage,
 };

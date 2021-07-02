@@ -27,10 +27,9 @@ router.get('/', async (req, res) => {
 });
 
 router.get('/exercise', async (req, res) => {
-  // Find all exercises in a given category
   try {
     const exerciseData = await Exercises.findAll({
-      where:{ category_id: 8 }, // Can be replaced with a parameter passed in
+      // where:{ category_id: 9 }, // Can be replaced with a parameter passed in
       order: [['name', 'ASC']],
       include: [
         {
@@ -43,6 +42,34 @@ router.get('/exercise', async (req, res) => {
     // console.log(JSON.stringify(exerciseData)); // To view the details of the exerciseData object. 
     
     const exercises = exerciseData.map((exercise) => exercise.get({ plain: true}));
+
+    res.render('exercise', {
+      exercises,
+      logged_in: req.session.logged_in
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+router.get('/exercise/:id', async (req, res) => {
+
+  // Find all exercises in a given category
+  try {
+    const exerciseData = await Exercises.findAll({
+      where:{ category_id: req.params.id },
+      order: [['name', 'ASC']],
+      include: [
+        {
+          model: Categories,
+          attributes: ['name'],
+        },
+        
+      ],
+    });
+    
+    const exercises = exerciseData.map((exercise) => exercise.get({ plain: true}));
+    console.log(exercises);
 
     res.render('exercise', {
       exercises,
