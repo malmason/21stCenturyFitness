@@ -14,7 +14,8 @@
     "language": 2,
     "license": 2,
     "license_author": "deusinvictus",
-    "variations": []
+    "variations": [],
+    "gif_image": "2handedKettlebellSwing.gif"
   },
   {
     "id": 227,
@@ -31,7 +32,8 @@
     "language": 2,
     "license": 1,
     "license_author": "trzr23",
-    "variations": [227, 329, 229, 190, 119, 123, 152, 155]
+    "variations": [227, 329, 229, 190, 119, 123, 152, 155],
+    "gif_image": "arnoldpress.gif"
   },
   {
     "id": 289,
@@ -48,7 +50,8 @@
     "language": 2,
     "license": 1,
     "license_author": "GrosseHund",
-    "variations": []
+    "variations": [],
+    "gif_image": "axehold.jpg"
   },
   {
     "id": 637,
@@ -65,7 +68,8 @@
     "language": 2,
     "license": 2,
     "license_author": "axel",
-    "variations": []
+    "variations": [],
+    "gif_image": "backsquat.gif"
   },
   {
     "id": 343,
@@ -82,7 +86,8 @@
     "language": 2,
     "license": 2,
     "license_author": "sevae",
-    "variations": []
+    "variations": [],
+    "gif_image": "barbellrollout.gif"
   },
   {
     "id": 407,
@@ -99,7 +104,8 @@
     "language": 2,
     "license": 2,
     "license_author": "BePieToday",
-    "variations": [407, 342, 300, 191, 650, 389, 355, 160, 185, 111, 795, 387]
+    "variations": [407, 342, 300, 191, 650, 389, 355, 160, 185, 111, 795, 387],
+    "gif_image": "barbellhacksquat.gif"
   },
   {
     "id": 405,
@@ -116,7 +122,8 @@
     "language": 2,
     "license": 2,
     "license_author": "Mikko Ruohola",
-    "variations": [405, 112, 113]
+    "variations": [405, 112, 113],
+    "gif_image": "barbelllunges.gif"
   },
   {
     "id": 344,

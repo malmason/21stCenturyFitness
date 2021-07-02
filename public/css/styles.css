@@ -1,3 +1,8 @@
 .hideCategory {
   visibility: hidden;
 }
+
+.gifImage {
+  max-width: 350px;
+  height: auto;
+}

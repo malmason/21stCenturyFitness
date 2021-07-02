@@ -1,54 +1,61 @@
-<h2>Exercises</h2>
+<div class="container">
+  <h2>Exercises</h2>
 
-<ul class="list-inline exercise-list">
-  <li class="category list-inline-item">
-    <input type="radio" name="Categories" class="form-check-input me-1" value=8>
-    Arms
-  </li>
-   <li class="category list-inline-item">
-    <input type="radio" name="Categories" class="form-check-input me-1" value=9>
-    Legs
-  </li>
-   <li class="category list-inline-item">
-    <input type="radio" name="Categories" class="form-check-input me-1" value=10>
-    Abs
-  </li>
-   <li class="category list-inline-item">
-    <input type="radio" name="Categories" class="form-check-input me-1" value=11>
-    Chest
-  </li>
-   <li class="category list-inline-item">
-    <input type="radio" name="Categories" class="form-check-input me-1" value=12>
-    Back
-  </li>
-   <li class="category list-inline-item">
-    <input type="radio" name="Categories" class="form-check-input me-1" value=13>
-    Shoulders
-  </li>
-   <li class="category list-inline-item">
-    <input type="radio" name="Categories" class="form-check-input me-1" value=14>
-    Calves
-  </li>
-</ul>
+  <ul class="list-inline exercise-list">
+    <li class="category list-inline-item">
+      <input type="radio" name="Categories" class="form-check-input me-1" value=8>
+      Arms
+    </li>
+    <li class="category list-inline-item">
+      <input type="radio" name="Categories" class="form-check-input me-1" value=9>
+      Legs
+    </li>
+    <li class="category list-inline-item">
+      <input type="radio" name="Categories" class="form-check-input me-1" value=10>
+      Abs
+    </li>
+    <li class="category list-inline-item">
+      <input type="radio" name="Categories" class="form-check-input me-1" value=11>
+      Chest
+    </li>
+    <li class="category list-inline-item">
+      <input type="radio" name="Categories" class="form-check-input me-1" value=12>
+      Back
+    </li>
+    <li class="category list-inline-item">
+      <input type="radio" name="Categories" class="form-check-input me-1" value=13>
+      Shoulders
+    </li>
+    <li class="category list-inline-item">
+      <input type="radio" name="Categories" class="form-check-input me-1" value=14>
+      Calves
+    </li>
+  </ul>
 
-<div class="row">
-  <div class="accordion col-5" id="exercise_accordion">
-     {{#each exercises as |exercise| }}
-      <div class="accordion-item category{{category_id}}">
-        <h2 class="accordion-header" id={{id}}>
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exercise{{id}}" aria-expanded="false" aria-controls="exercise{{id}}">
-            {{name}}
-          </button>
-        </h2>
-        <div id="exercise{{id}}"" class="accordion-collapse collapse" aria-labelledby={{id}} data-bs-parent="#exercise_accordion">
-          <div class="accordion-body">
-            {{{description}}}
+
+  <div class="row">
+    <div class="accordion col col-md-8" id="exercise_accordion">
+      {{#each exercises as |exercise| }}
+        <div class="accordion-item category{{category_id}}">
+          <h2 class="accordion-header" id={{id}}>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exercise{{id}}" aria-expanded="false" aria-controls="exercise{{id}}">
+              {{name}}
+            </button>
+          </h2>
+          <div id="exercise{{id}}" class="accordion-collapse collapse" aria-labelledby={{id}} data-bs-parent="#exercise_accordion">
+            <div class="accordion-body lh-sm">
+              {{{description}}}
+              {{#if gif_image}}
+                <img src="./images/{{gif_image}}" alt="{{name}}" class="gifImage">
+              {{/if}}
+            </div>
           </div>
         </div>
-      </div>
-     {{/each}}
-  </div>
-</div> 
+      {{/each}}
+    </div>
+  </div> 
+</div>
+
 
 <script src="./js/exercise.js"></script>
 

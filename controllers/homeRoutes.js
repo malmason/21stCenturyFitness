@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Exercises, Categories, User } = require('../models');
+const { Exercises, Categories, User, ExerciseImage, Muscles } = require('../models');
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
@@ -52,6 +52,8 @@ router.get('/exercise', async (req, res) => {
   }
 });
 
+
+// Works, but page doesn't reload with filtered list, look into this with sequelize/handlebars.....M.Mason
 router.get('/exercise/:id', async (req, res) => {
 
   // Find all exercises in a given category
