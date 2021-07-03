@@ -1,24 +1,30 @@
-// const showExercises = async (event) => {
-//   event.preventDefault();
 
-//   const id = event.target.value
-//   const category = `category${id}` // Category to show. 
-//   const accordions = document.querySelectorAll('.accordion-item');  
+const listExercises = async (e) => {
+  // Get the information from the checkbox that was clicked
 
-//   console.log(category);
+  const id = e.target.getAttribute('data-id');
+  const ckBox = document.querySelector(`#check${id}`);
+  const exerciseName = document.querySelector(`#heading${id}`);
 
-//   accordions.forEach((accordion) => {
-//     if(accordion.classList.contains(category)) {
-//       accordion.classList.add('showCategory');
-//       accordion.classList.remove('hideCategory')
-//     } else {
-//       accordion.classList.add('hideCategory');
-//       accordion.classList.remove('showCategory');
-//     }
-//   });
+  // List group for to hold the selected exercises. 
+  const exercises = document.querySelector('#exercise_selected');
 
-// };
+  if(e.target.hasAttribute('data-id')) {
+    var newExercise = document.createElement("li");
+    newExercise.id = id;
+    newExercise.innerHTML = exerciseName.innerHTML
+    if(ckBox.checked) {
+        // Add the exercise to the selected list. 
+      newExercise.classList.add('list-group-item');
+      exercises.appendChild(newExercise);
+      } else {
+        // Remove the exercise if it exists. 
+        var oldExercise = document.getElementById(`#${id}`);
+       
+      }
+  };
+};
 
-// document
-// .querySelector('.exercise-list')
-// .addEventListener('click', showExercises);
+document
+.querySelector('#exercise_accordion')
+.addEventListener('click', listExercises);
