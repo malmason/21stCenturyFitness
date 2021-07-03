@@ -20,9 +20,7 @@ const listExercises = async (e) => {
       } else {
         // Remove the exercise if it exists. 
         var oldExercise = document.getElementById(`#${id}`);
-        if(oldExercise.parentNode) {
-          oldExercise.parentNode.removeChild(oldExercise);
-        }
+       
       }
   };
 };
