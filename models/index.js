@@ -3,6 +3,7 @@ const Categories = require('./Categories');
 const Exercises = require('./Exercises');
 const Muscles = require('./Muscles');
 
+const ExerciseImage = require('./ExerciseImage');
 
 Exercises.belongsTo(Categories, {
   foreignKey: 'category_id',
@@ -14,15 +15,13 @@ Categories.hasMany(Exercises, {
  onUpdate: 'CASCADE',
 });
 
-// Muscles.belongsTo(Exercises, {
-//   foreignKey: 'muscle_id'
-// });
-
-
 
 module.exports = {
   User,
   Categories,
   Exercises,
   Muscles,
+
+  ExerciseImage,
+
 };
