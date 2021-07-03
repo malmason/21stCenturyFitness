@@ -1,5 +1,8 @@
 const router = require('express').Router();
-const { Exercises, Categories, User } = require('../models');
+
+const sequelize = require('../config/connection');
+const { Exercises, Categories, User, ExerciseImage, Muscles } = require('../models');
+
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
@@ -27,10 +30,41 @@ router.get('/', async (req, res) => {
 });
 
 router.get('/exercise', async (req, res) => {
+
+  try {
+    const exerciseData = await Categories.findAll({
+      // where:{ category_id: 9 }, // Can be replaced with a parameter passed in
+      order: [['name', 'ASC'], [Exercises, 'name', 'ASC']],
+      include: [
+        {
+          model: Exercises,
+          attributes: ['name','description','id','gif_image'],
+        },
+        
+      ],
+    });
+    console.log(JSON.stringify(exerciseData)); // To view the details of the exerciseData object. 
+    
+    const categories = exerciseData.map((exercise) => exercise.get({ plain: true}));
+
+    res.render('exercise', {
+      categories,
+      logged_in: req.session.logged_in
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+
+// Works, but page doesn't reload with filtered list, look into this with sequelize/handlebars.....M.Mason
+router.get('/exercise/:id', async (req, res) => {
+
   // Find all exercises in a given category
   try {
     const exerciseData = await Exercises.findAll({
-      where:{ category_id: 8 }, // Can be replaced with a parameter passed in
+      where:{ category_id: req.params.id },
+
       order: [['name', 'ASC']],
       include: [
         {
@@ -40,9 +74,10 @@ router.get('/exercise', async (req, res) => {
         
       ],
     });
-    // console.log(JSON.stringify(exerciseData)); // To view the details of the exerciseData object. 
     
     const exercises = exerciseData.map((exercise) => exercise.get({ plain: true}));
+    console.log(exercises);
+
 
     res.render('exercise', {
       exercises,

@@ -14,7 +14,9 @@
     "language": 2,
     "license": 2,
     "license_author": "deusinvictus",
-    "variations": []
+    "variations": [],
+    "gif_image": "2handedKettlebellSwing.gif"
+
   },
   {
     "id": 227,
@@ -31,7 +33,10 @@
     "language": 2,
     "license": 1,
     "license_author": "trzr23",
-    "variations": [227, 329, 229, 190, 119, 123, 152, 155]
+
+    "variations": [227, 329, 229, 190, 119, 123, 152, 155],
+    "gif_image": "arnoldpress.gif"
+
   },
   {
     "id": 289,
@@ -48,7 +53,9 @@
     "language": 2,
     "license": 1,
     "license_author": "GrosseHund",
-    "variations": []
+    "variations": [],
+    "gif_image": "axehold.jpg"
+
   },
   {
     "id": 637,
@@ -65,7 +72,10 @@
     "language": 2,
     "license": 2,
     "license_author": "axel",
-    "variations": []
+
+    "variations": [],
+    "gif_image": "backsquat.gif"
+
   },
   {
     "id": 343,
@@ -82,7 +92,9 @@
     "language": 2,
     "license": 2,
     "license_author": "sevae",
-    "variations": []
+    "variations": [],
+    "gif_image": "barbellrollout.gif"
+
   },
   {
     "id": 407,
@@ -99,7 +111,9 @@
     "language": 2,
     "license": 2,
     "license_author": "BePieToday",
-    "variations": [407, 342, 300, 191, 650, 389, 355, 160, 185, 111, 795, 387]
+    "variations": [407, 342, 300, 191, 650, 389, 355, 160, 185, 111, 795, 387],
+    "gif_image": "barbellhacksquat.gif"
+
   },
   {
     "id": 405,
@@ -116,7 +130,9 @@
     "language": 2,
     "license": 2,
     "license_author": "Mikko Ruohola",
-    "variations": [405, 112, 113]
+    "variations": [405, 112, 113],
+    "gif_image": "barbelllunges.gif"
+
   },
   {
     "id": 344,
@@ -133,7 +149,9 @@
     "language": 2,
     "license": 2,
     "license_author": "sevae",
-    "variations": [344, 274, 89, 90]
+    "variations": [344, 274, 89, 90],
+    "gif_image": "barbelltricepsextension.gif"
+
   },
   {
     "id": 307,
@@ -150,7 +168,9 @@
     "language": 2,
     "license": 2,
     "license_author": "nate303303",
-    "variations": []
+    "variations": [],
+    "gif_image": "bearwalk.gif"
+
   },
   {
     "id": 192,
@@ -167,7 +187,9 @@
     "language": 2,
     "license": 1,
     "license_author": "sistab2",
-    "variations": [192, 100, 101, 163, 210, 211, 270, 399]
+    "variations": [192, 100, 101, 163, 210, 211, 270, 399],
+    "gif_image": "benchpress.gif"
+
   },
   {
     "id": 97,
@@ -184,7 +206,9 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": [],
+    "gif_image": "benchdumbbells.gif"
+
   },
   {
     "id": 88,
@@ -235,7 +259,9 @@
     "language": 2,
     "license": 2,
     "license_author": "warchildmd",
-    "variations": [412, 362, 109, 110, 340, 214, 202, 670, 142, 108, 106, 339]
+    "variations": [412, 362, 109, 110, 340, 214, 202, 670, 142, 108, 106, 339],
+    "gif_image": "bentoverbarbellrow.gif"
+
   },
   {
     "id": 362,
@@ -286,7 +312,9 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": [412, 362, 109, 110, 340, 214, 202, 670, 142, 108, 106, 339]
+    "variations": [412, 362, 109, 110, 340, 214, 202, 670, 142, 108, 106, 339],
+    "gif_image": "bentoverbarbellrow.gif"
+
   },
   {
     "id": 110,
@@ -303,7 +331,9 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": [412, 362, 109, 110, 340, 214, 202, 670, 142, 108, 106, 339]
+    "variations": [412, 362, 109, 110, 340, 214, 202, 670, 142, 108, 106, 339],
+    "gif_image": "bentoverreverse.gif"
+
   },
   {
     "id": 74,
@@ -320,7 +350,9 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": [74, 81, 80, 129, 275, 298, 86, 138, 193, 208, 205, 768, 305]
+    "variations": [74, 81, 80, 129, 275, 298, 86, 138, 193, 208, 205, 768, 305],
+    "gif_image": "bicepscurlbarbell.gif"
+
   },
   {
     "id": 81,
@@ -337,15 +369,17 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": [74, 81, 80, 129, 275, 298, 86, 138, 193, 208, 205, 768, 305]
+    "variations": [74, 81, 80, 129, 275, 298, 86, 138, 193, 208, 205, 768, 305],
+    "gif_image": "bicepscurldumbbell.gif"
+
   },
   {
     "id": 80,
     "uuid": "38919515-ce04-4383-9c3f-5846edd0e844",
-    "name": "Biceps Curls With SZ-bar",
+    "name": "Biceps Curls With EZ-bar",
     "exercise_base": 94,
     "status": "2",
-    "description": "<p>Hold the SZ-bar shoulder-wide, the back is straight, the shoulders slightly back, the arms are streched. Bend the arms, bringing the weight up, with a fast movement. Without pausing, let down the bar with a slow and controlled movement.</p>\n<p>Don't allow your body to swing during the exercise, all work is done by the biceps, which are the only mucles that should move (pay attention to the elbows).</p>",
+    "description": "<p>Hold the EZ-bar shoulder-wide, the back is straight, the shoulders slightly back, the arms are streched. Bend the arms, bringing the weight up, with a fast movement. Without pausing, let down the bar with a slow and controlled movement.</p>\n<p>Don't allow your body to swing during the exercise, all work is done by the biceps, which are the only mucles that should move (pay attention to the elbows).</p>",
     "creation_date": "2013-05-05",
     "category_id": 8,
     "muscles": [1],
@@ -354,7 +388,9 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": [74, 81, 80, 129, 275, 298, 86, 138, 193, 208, 205, 768, 305]
+    "variations": [74, 81, 80, 129, 275, 298, 86, 138, 193, 208, 205, 768, 305],
+    "gif_image": "bicepsezcurl.gif"
+
   },
   {
     "id": 129,
@@ -422,7 +458,9 @@
     "language": 2,
     "license": 2,
     "license_author": "er0355",
-    "variations": []
+    "variations": [],
+    "gif_image": "burpee.gif"
+
   },
   {
     "id": 98,
@@ -439,7 +477,9 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": [],
+    "gif_image": "butterfly.gif"
+
   },
   {
     "id": 99,
@@ -541,7 +581,9 @@
     "language": 2,
     "license": 2,
     "license_author": "nate303303",
-    "variations": []
+    "variations": [],
+    "gif_image": "legpresscalfraises.gif"
+
   },
   {
     "id": 776,
@@ -563,7 +605,7 @@
   {
     "id": 104,
     "uuid": "e7677699-5e4f-49e6-a645-e8915a203c4d",
-    "name": "Calf Raises on Hackenschmitt Machine",
+    "name": "Calf Raises on Hackenschmidt Machine",
     "exercise_base": 148,
     "status": "2",
     "description": "<p>Place yourself on the machine with your back firmly against the backrest, the feet are on the platform for calf raises. Check that the feet are half free and that you can completely stretch the calf muscles down.</p>\n<p>With straight knees pull up your weight as much as you can. Go with a fluid movement down till the calves are completely stretched. Repeat.</p>",
@@ -575,7 +617,8 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": [776, 104, 103, 102]
+    "variations": [776, 104, 103, 102],
+    "gif_image": "hackcalfraises.gif"
   },
   {
     "id": 803,
@@ -677,7 +720,9 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": [91, 94, 92, 416, 93, 176, 95, 170]
+    "variations": [91, 94, 92, 416, 93, 176, 95, 170],
+    "gif_image": "crunch.gif"
+
   },
   {
     "id": 94,
@@ -694,7 +739,8 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": [91, 94, 92, 416, 93, 176, 95, 170]
+    "variations": [91, 94, 92, 416, 93, 176, 95, 170],
+    "gif_image": "crunchesonmachine.gif"
   },
   {
     "id": 92,
@@ -711,7 +757,8 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": [91, 94, 92, 416, 93, 176, 95, 170]
+    "variations": [91, 94, 92, 416, 93, 176, 95, 170],
+    "gif_image": "cablecrunch.gif"
   },
   {
     "id": 416,
@@ -813,8 +860,9 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": [105, 381, 161, 351, 328, 209]
-  },
+    "variations": [105, 381, 161, 351, 328, 209],
+    "gif_image": "deadlifts.gif"
+ },
   {
     "id": 100,
     "uuid": "b72ae8d4-ede6-4480-8fc5-7b80e369f7ed",
@@ -915,7 +963,8 @@
     "language": 2,
     "license": 3,
     "license_author": "BFad07",
-    "variations": []
+    "variations": [],
+    "gif_image": "Dips.gif"
   },
   {
     "id": 82,
@@ -949,7 +998,8 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": [82, 83, 360, 162]
+    "variations": [82, 83, 360, 162],
+    "gif_image": "dipsbenches.gif"
   },
   {
     "id": 275,
@@ -1314,7 +1364,7 @@
     "name": "Hammercurls",
     "exercise_base": 272,
     "status": "2",
-    "description": "<p>Hold two dumbbells and sit on a bench with a straight back, the shoulders are slightly rolled backwards. Your pals point to your body. Bend the arms and bring the weight up with a fast movement. Don't rotate your hands, as with the curls. Without any pause bring the dumbbell down with a slow, controlled movement.</p>\n<p>Don't swing your body during the exercise, the biceps should do all the work here. The elbows are at your side and don't move.</p>",
+    "description": "<p>Hold two dumbbells and sit on a bench with a straight back, the shoulders are slightly rolled backwards. Your palms point to your body. Bend the arms and bring the weight up with a fast movement. Don't rotate your hands, as with the curls. Without any pause bring the dumbbell down with a slow, controlled movement.</p>\n<p>Don't swing your body during the exercise, the biceps should do all the work here. The elbows are at your side and don't move.</p>",
     "creation_date": "2013-05-05",
     "category_id": 8,
     "muscles": [1],
@@ -1323,7 +1373,8 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": [74, 81, 80, 129, 275, 298, 86, 138, 193, 208, 205, 768, 305]
+    "variations": [74, 81, 80, 129, 275, 298, 86, 138, 193, 208, 205, 768, 305],
+    "gif_image": "hammercurls.gif"
   },
   {
     "id": 138,
@@ -2241,7 +2292,8 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": [91, 94, 92, 416, 93, 176, 95, 170]
+    "variations": [91, 94, 92, 416, 93, 176, 95, 170],
+    "gif_image": "negativecrunch.gif"
   },
   {
     "id": 197,
@@ -2445,7 +2497,9 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": [],
+    "gif_image": "pull-ups.gif"
+
   },
   {
     "id": 140,
@@ -2751,7 +2805,8 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": [412, 362, 109, 110, 340, 214, 202, 670, 142, 108, 106, 339]
+    "variations": [412, 362, 109, 110, 340, 214, 202, 670, 142, 108, 106, 339],
+    "gif_image": "tbarrow.gif"
   },
   {
     "id": 397,
@@ -3142,7 +3197,8 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": [776, 104, 103, 102]
+    "variations": [776, 104, 103, 102],
+    "gif_image": "seatedcalfraises.gif"
   },
   {
     "id": 95,
@@ -3295,7 +3351,8 @@
     "language": 2,
     "license": 3,
     "license_author": "BFad07",
-    "variations": [407, 342, 300, 191, 650, 389, 355, 160, 185, 111, 795, 387]
+    "variations": [407, 342, 300, 191, 650, 389, 355, 160, 185, 111, 795, 387],
+    "gif_image": "squats.gif"
   },
   {
     "id": 768,
@@ -3329,7 +3386,8 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": [776, 104, 103, 102]
+    "variations": [776, 104, 103, 102],
+    "gif_image": "standingcalfraises.gif"
   },
   {
     "id": 382,

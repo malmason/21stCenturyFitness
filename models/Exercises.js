@@ -20,7 +20,9 @@ Exercises.init(
     },
     exercise_base: {
       type: DataTypes.INTEGER,
-      allowNull: true,
+
+      allowNull: false,
+
     },
     status: {
       type: DataTypes.STRING,
@@ -69,6 +71,12 @@ Exercises.init(
       type: DataTypes.JSON,
       allowNull: true,
     },
+
+    gif_image: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+
   },
 
   {
