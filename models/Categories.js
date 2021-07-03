@@ -14,6 +14,10 @@ Categories.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    total: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    }
   },
   {
     sequelize,

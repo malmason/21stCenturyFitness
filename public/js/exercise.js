@@ -10,8 +10,8 @@ const listExercises = async (e) => {
   const exercises = document.querySelector('#exercise_selected');
 
   if(e.target.hasAttribute('data-id')) {
-    var newExercise = document.createElement("li");
-    newExercise.id = id;
+    let newExercise = document.createElement("li");
+    newExercise.id = `workout${id}`;
     newExercise.innerHTML = exerciseName.innerHTML
     if(ckBox.checked) {
         // Add the exercise to the selected list. 
@@ -19,8 +19,8 @@ const listExercises = async (e) => {
       exercises.appendChild(newExercise);
       } else {
         // Remove the exercise if it exists. 
-        var oldExercise = document.getElementById(`#${id}`);
-       
+        let oldExercise = document.querySelector(`#workout${id}`);
+        exercises.removeChild(oldExercise);
       }
   };
 };
