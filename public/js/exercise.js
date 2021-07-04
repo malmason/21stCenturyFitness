@@ -1,28 +1,26 @@
 const saveWorkout = async (e) => {
   e.preventDefault();
-
-  // Loop through the list items and add to the database. 
   const workouts = document.querySelectorAll('#exercise_selected li');
+  let data = {
+    exercise_id: workouts[0].getAttribute('data-exercise'),
+    workout_date: '2021-07-04'
+  }
 
-  await workouts.forEach(function(workout) {
-    console.log(workout.getAttribute('data-exercise'));
-    let Data = {
-      exercise_id: workout.getAttribute('data-exercise')
-    } 
-    const response = fetch(`api/workouts`, {
-      method: 'POST',
-      body: Data,
-      headers: {
-        'Content-Type': 'applicaton/json',
-      }
-    });
-    if(response.ok) {
-      document.location.replace('/profile');
-    } else {
-      alert('Failed to create new Workout');
-    }
+  const response = await fetch(`/api/workouts`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json;charset=utf-8'
+    },
+    body: JSON.stringify(data)
   });
+  if (response.ok) {
+    document.location.replace('/profile');
+  } else {
+    alert('Failed to create a new workout');
+  }
 };
+
+
 
 const listExercises = async (e) => {
   // Get the information from the checkbox that was clicked
@@ -31,7 +29,7 @@ const listExercises = async (e) => {
   const ckBox = document.querySelector(`#check${id}`);
   const exerciseName = document.querySelector(`#heading${id}`);
 
-  // List group for to hold the selected exercises. 
+  // List group to hold the selected exercises. 
   const exercises = document.querySelector('#exercise_selected');
 
   if(e.target.hasAttribute('data-id')) {
@@ -51,8 +49,6 @@ const listExercises = async (e) => {
       }
   };
 };
-
-
 
 document
 .querySelector('#exercise_accordion')

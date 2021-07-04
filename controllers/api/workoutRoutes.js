@@ -6,13 +6,14 @@ const withAuth = require('../../utils/auth');
 router.post('/', withAuth, async (req, res) => {
   console.log("received post request");
   console.log(req.session.user_id);
+  console.log(req.body);
 try {
     const newWorkout = await Workouts.create({
       ...req.body,
       user_id: req.session.user_id,
     });
 
-    res.status(200).json(newExercise);
+    res.status(200).json(newWorkout);
   } catch (err) {
     res.status(400).json(err);
   }
