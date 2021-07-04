@@ -1,72 +1,110 @@
 <div class="container">
   <div class="row">
-    <div class="col text-center mb-4">
-      <h3>Exercise Profile for {{first_name}} {{last_name}}!</h3>
-    </div>
+      <div class="col text-center mb-4">
+        <h3>Exercise Profile for {{first_name}} {{last_name}}! {{userData.1.Category}}</h3>
+        {{#each this}}
+            {{Category}}
+        {{/each}}
+      </div>
   </div>
+  
   <div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card h-100">
-      <img src="./images/abs.jpg" class="card-img-top profileImage" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Abs</h5>
-        <p class="card-text">Statistics for this exercise category can go here on the card!</p>
+    {{#each this}}
+      <div class="col">
+        <div class="card h-100" style="width: 26rem;">
+          {{#ifEquals Category "Abs"}}
+            <img src="./images/abs.jpg" class="card-img-top profileImage" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Abs</h5>
+              <p class="card-text">
+                <p class="card-paragraph"><span class="card-bold">Exercise:</span> {{Exercise}}</p>
+                <p class="card-paragraph">Total: {{TotalExercises}}</p>
+                <p class="card-paragraph">Sets: {{TotalSets}}</p>
+                <p class="card-paragraph">Reps: {{TotalReps}}</p>
+                <p class="card-paragraph">Total Min: {{TotalMinutes}}</p>
+              </p>
+           </div>
+          {{/ifEquals}}
+          {{#ifEquals Category "Arms"}}
+            <img src="./images/arms.jpg" class="card-img-top profileImage" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Arms</h5>
+              <p class="card-text">
+                <p class="card-paragraph"><span class="card-bold">Exercise:</span> {{Exercise}}</p>
+                <p class="card-paragraph">Total: {{TotalExercises}}</p>
+                <p class="card-paragraph">Sets: {{TotalSets}}</p>
+                <p class="card-paragraph">Reps: {{TotalReps}}</p>
+                <p class="card-paragraph">Total Min: {{TotalMinutes}}</p>
+              </p>
+           </div>
+          {{/ifEquals}}
+          {{#ifEquals Category "Back"}}
+            <img src="./images/back.jpg" class="card-img-top profileImage" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Back</h5>
+              <p class="card-text">
+                <p class="card-paragraph"><span class="card-bold">Exercise:</span> {{Exercise}}</p>
+                <p class="card-paragraph">Total: {{TotalExercises}}</p>
+                <p class="card-paragraph">Sets: {{TotalSets}}</p>
+                <p class="card-paragraph">Reps: {{TotalReps}}</p>
+                <p class="card-paragraph">Total Min: {{TotalMinutes}}</p>
+              </p>
+            </div>
+          {{/ifEquals}}
+          {{#ifEquals Category "Calves"}}
+            <img src="./images/calves.jpg" class="card-img-top profileImage" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Calves</h5>
+              <p class="card-text">
+                <p class="card-paragraph"><span class="card-bold">Exercise:</span> {{Exercise}}</p>
+                <p class="card-paragraph">Total: {{TotalExercises}}</p>
+                <p class="card-paragraph">Sets: {{TotalSets}}</p>
+                <p class="card-paragraph">Reps: {{TotalReps}}</p>
+                <p class="card-paragraph">Total Min: {{TotalMinutes}}</p>
+              </p>
+           </div>
+          {{/ifEquals}}
+          {{#ifEquals Category "Chest"}}
+            <img src="./images/chest.jpg" class="card-img-top profileImage" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Chest</h5>
+              <p class="card-text">
+                <p class="card-paragraph"><span class="card-bold">Exercise:</span> {{Exercise}}</p>
+                <p class="card-paragraph">Total: {{TotalExercises}}</p>
+                <p class="card-paragraph">Sets: {{TotalSets}}</p>
+                <p class="card-paragraph">Reps: {{TotalReps}}</p>
+                <p class="card-paragraph">Total Min: {{TotalMinutes}}</p>
+              </p>
+            </div>
+          {{/ifEquals}}
+          {{#ifEquals Category "Legs"}}
+            <img src="./images/legs.jpg" class="card-img-top profileImage" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Legs</h5>
+              <p class="card-text">
+                <p class="card-paragraph"><span class="card-bold">Exercise:</span> {{Exercise}}</p>
+                <p class="card-paragraph">Total: {{TotalExercises}}</p>
+                <p class="card-paragraph">Sets: {{TotalSets}}</p>
+                <p class="card-paragraph">Reps: {{TotalReps}}</p>
+                <p class="card-paragraph">Total Min: {{TotalMinutes}}</p>
+              </p>
+            </div>
+          {{/ifEquals}}
+          {{#ifEquals Category "Shoulders"}}
+            <img src="./images/shoulders.jpg" class="card-img-top profileImage" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Shoulders</h5>
+              <p class="card-text">
+                <p class="card-paragraph"><span class="card-bold">Exercise:</span> {{Exercise}}</p>
+                <p class="card-paragraph">Total: {{TotalExercises}}</p>
+                <p class="card-paragraph">Sets: {{TotalSets}}</p>
+                <p class="card-paragraph">Reps: {{TotalReps}}</p>
+                <p class="card-paragraph">Total Min: {{TotalMinutes}}</p>
+              </p>
+            </div>
+          {{/ifEquals}}
+        </div>	
       </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="./images/arms.jpg" class="card-img-top profileImage" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Arms</h5>
-        <p class="card-text">Statistics for this exercise category can go here on the card!</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="./images/back.jpg" class="card-img-top profileImage" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Back</h5>
-        <p class="card-text">Statistics for this exercise category can go here on the card!</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="./images/calves.jpg" class="card-img-top profileImage" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Calves</h5>
-        <p class="card-text">Statistics for this exercise category can go here on the card!</p>
-      </div>
-    </div>
-  </div>
-    <div class="col">
-    <div class="card h-100">
-      <img src="./images/chest.jpg" class="card-img-top profileImage" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Chest</h5>
-        <p class="card-text">Statistics for this exercise category can go here on the card!</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="./images/legs.jpg" class="card-img-top profileImage" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Legs</h5>
-        <p class="card-text">Statistics for this exercise category can go here on the card!</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="./images/shoulders.jpg" class="card-img-top profileImage" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Shoulders</h5>
-        <p class="card-text">Statistics for this exercise category can go here on the card!</p>
-      </div>
-    </div>
-  </div>
-</div>
+    {{/each}}
+  </div>       
 </div>

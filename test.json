@@ -1,0 +1,46 @@
+[
+  {
+    "id": 3,
+    "first_name": "Malcolm",
+    "last_name": "Mason",
+    "Exercise": "Axe Hold",
+    "Category": "Arms",
+    "TotalExercises": 1,
+    "TotalSets": null,
+    "TotalReps": null,
+    "TotalMinutes": null
+  },
+  {
+    "id": 3,
+    "first_name": "Malcolm",
+    "last_name": "Mason",
+    "Exercise": "Bench Press",
+    "Category": "Chest",
+    "TotalExercises": 1,
+    "TotalSets": null,
+    "TotalReps": null,
+    "TotalMinutes": null
+  },
+  {
+    "id": 3,
+    "first_name": "Malcolm",
+    "last_name": "Mason",
+    "Exercise": "Calf Raises",
+    "Category": "Calves",
+    "TotalExercises": 1,
+    "TotalSets": null,
+    "TotalReps": null,
+    "TotalMinutes": null
+  },
+  {
+    "id": 3,
+    "first_name": "Malcolm",
+    "last_name": "Mason",
+    "Exercise": "Back Squat",
+    "Category": "Legs",
+    "TotalExercises": 1,
+    "TotalSets": null,
+    "TotalReps": null,
+    "TotalMinutes": null
+  }
+]

@@ -1,6 +1,7 @@
 const router = require('express').Router();
+const { QueryTypes } = require('sequelize');
 const sequelize = require('../config/connection');
-const { Exercises, Categories, User, ExerciseImage, Muscles } = require('../models');
+const { Exercises, Categories, User, ExerciseImage, Muscles, Workouts } = require('../models');
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
@@ -86,17 +87,27 @@ router.get('/exercise/:id', async (req, res) => {
 // Use withAuth middleware to prevent access to route
 router.get('/profile', withAuth, async (req, res) => {
 
+  let userID = req.session.user_id;
+  let sql =  `SELECT u.id, u.first_name, u.last_name, e.name as Exercise, c.name as Category,
+  COUNT(w.exercise_id) as TotalExercises, SUM(w.sets) as TotalSets, SUM(w.reps) as TotalReps,
+  SUM(w.total_minutes) as TotalMinutes FROM user u JOIN workouts w ON u.id = w.user_id
+  JOIN exercises e ON e.id = w.exercise_id JOIN categories c ON c.id = e.category_id
+  WHERE u.id = ${userID}
+  GROUP BY u.id,u.first_name,u.last_name,e.name,c.name ORDER BY c.name`
+
   try {
     // Find the logged in user based on the session ID
-    const userData = await User.findByPk(req.session.user_id, {
-      attributes: { exclude: ['password'] },
-    });
+    const userData = await sequelize.query(sql,{ type: QueryTypes.SELECT });
+      // User.findByPk(
+      // req.session.user_id, {
+      // attributes: { exclude: ['password'] },
+      // include: [{ model: Workouts }]
+    // });
 
-    console.log(JSON.stringify(userData));
-
-    const user = userData.get({ plain: true });
+    // const user = userData.get({ plain: true });
+    console.log(userData);
     res.render('profile', {
-      ...user,
+      ...userData,
       logged_in: true
     });
   } catch (err) {
