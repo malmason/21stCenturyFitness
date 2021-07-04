@@ -11,18 +11,14 @@
       </div>
 
       <form class="form workout-form">
-        <div class="form-group mb-2">
-            <label for="workout-title" class="form-label">Title</label>
-            <input class="form-input form-control" type="text" id="workout-title" />
-        </div>
         <div class="d-grid mt-5">
-            <button class="btn btn-primary" type="submit">Create</button>
+            <button class="btn btn-primary" type="submit" id="btnWorkout">Create</button>
         </div>
       </form>
     </div>
 
     <h4 class="mt-2 text-center">Exercises</h4>
-    <div class="accordion accordion-flush col col-md-7" id="exercise_accordion">
+    <div class="accordion accordion-flush col col-md-7 overflow-auto" id="exercise_accordion">
       {{#each categories as |category|}}
         <div class="accordion-item category{{id}}">
           <h2 class="accordion-header" id={{id}}>

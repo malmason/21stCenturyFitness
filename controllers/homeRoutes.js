@@ -40,7 +40,7 @@ router.get('/exercise', async (req, res) => {
         
       ],
     });
-    console.log(JSON.stringify(exerciseData)); // To view the details of the exerciseData object. 
+    // console.log(JSON.stringify(exerciseData)); // To view the details of the exerciseData object. 
     
     const categories = exerciseData.map((exercise) => exercise.get({ plain: true}));
 
