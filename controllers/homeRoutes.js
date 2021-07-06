@@ -1,7 +1,7 @@
 const router = require('express').Router();
-
+const { QueryTypes } = require('sequelize');
 const sequelize = require('../config/connection');
-const { Exercises, Categories, User, ExerciseImage, Muscles } = require('../models');
+const { Exercises, Categories, User, ExerciseImage, Muscles, Workouts } = require('../models');
 
 const withAuth = require('../utils/auth');
 
@@ -43,7 +43,7 @@ router.get('/exercise', async (req, res) => {
         
       ],
     });
-    console.log(JSON.stringify(exerciseData)); // To view the details of the exerciseData object. 
+    // console.log(JSON.stringify(exerciseData)); // To view the details of the exerciseData object. 
     
     const categories = exerciseData.map((exercise) => exercise.get({ plain: true}));
 
@@ -91,23 +91,54 @@ router.get('/exercise/:id', async (req, res) => {
 // Use withAuth middleware to prevent access to route
 router.get('/profile', withAuth, async (req, res) => {
 
+  let userID = req.session.user_id;
+  let sql =  `SELECT u.id, u.first_name, u.last_name, c.name as Category,
+  COUNT(w.exercise_id) as TotalExercises, SUM(w.sets) as TotalSets, SUM(w.reps) as TotalReps,
+  SUM(w.total_minutes) as TotalMinutes, c.gif_image FROM user u JOIN workouts w ON u.id = w.user_id
+  JOIN exercises e ON e.id = w.exercise_id JOIN categories c ON c.id = e.category_id
+  WHERE u.id = ${userID}
+  GROUP BY u.id,u.first_name,u.last_name, c.name, c.gif_image ORDER BY c.name`
+
   try {
-    // Find the logged in user based on the session ID
-    const userData = await User.findByPk(req.session.user_id, {
-      attributes: { exclude: ['password'] },
-    });
-
-    console.log(JSON.stringify(userData));
-
-    const user = userData.get({ plain: true });
+    // Find all exercises by the log in user (summary data)
+    const userData = await sequelize.query(sql,{ type: QueryTypes.SELECT });
+  
+    console.log(userData);
     res.render('profile', {
-      ...user,
+      ...userData,
       logged_in: true
     });
   } catch (err) {
     res.status(500).json(err);
   }
 });
+
+router.get('/schedule', async (req, res) => {
+  try {
+    const scheduleData = await Workouts.findAll({
+      where:{ user_id: req.session.user_id },
+      order: [['workout_date', 'DESC'], [Exercises, 'name', 'ASC']],
+      include: [
+        {
+          model: Exercises,
+          attributes: ['name','description','id','gif_image'],
+        },
+        
+      ],
+    });
+    console.log(JSON.stringify(scheduleData)); // To view the details of the scheduleData object. 
+    
+    const schedules = scheduleData.map((schedule) => schedule.get({ plain: true}));
+
+    res.render('schedule', {
+      schedules,
+      logged_in: req.session.logged_in
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
 
 router.get('/login', (req, res) => {
   // If the user is already logged in, redirect the request to another route

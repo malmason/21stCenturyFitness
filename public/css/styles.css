@@ -6,3 +6,35 @@
   max-width: 370px;
   height: auto;
 }
+
+.profileImage {
+  max-width: 500px;
+  height: auto;
+}
+
+.card-paragraph {
+  font-size: .9rem;
+  line-height: .8;
+  max-width: 400px;
+}
+.card-bold {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.header-image {
+  background-image: url('../images/gymbackground2.jpg');
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 150px;
+  opacity: 0.5;
+}
+.exercise-body {
+  font-size: .8rem;
+}
+.exercise-number {
+  max-width: 80px;
+}
+.exercise-sm-image {
+  max-width: 100px;
+  height: auto;
+}

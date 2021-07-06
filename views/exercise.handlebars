@@ -1,38 +1,44 @@
 
 <div class="container">
-  
-  <h2 class="text-center">Create Workout</h2>
-
-  <div class="row justify-content-center mt-2">
-    <div class="create-workout col col-md-5 text-start border p-2">
-      <form class="form workout-form">
-          <div class="form-group mb-2">
-          <label for="workout-title" class="form-label">Title</label>
-          <input class="form-input form-control" type="text" id="workout-title" />
-        </div>
-         <div class="d-grid gap-2 mt-5">
-        <button class="btn btn-primary" type="submit">Create</button>
+  <div class="row justify-content-center mt-1">
+    <div class="container col col-md-6">
+      <div class="card card-primary">
+        <div class="card-header bg-primary text-light"><h5>Create your Workout</h5></div>
+          <div class="card-body bg-light">
+              <div class="create-workout text-start p-2">
+                <form class="form workout-form">
+                  <div class="row workouts justify-content-center">
+                    <div class="p-2 mx-5">
+                      <ul class="list-group" id="exercise_selected">
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row dates">
+                    <div class="col col-md-6">
+                      <label for="startDt">Start Date:</label>
+                      <input type="date" id="startDt" name="startDt" class="myDates">
+                    </div>
+                    <div class="col col-md-6">
+                      <label for="endDt">End Date:</label>
+                      <input type="date" id="endDt" name="endDt" class="myDates">
+                    </div> 
+                  </div>
+                  <div class="d-grid mt-5">
+                    <button class="btn btn-primary" type="submit" id="btnWorkout">Create</button>
+                  </div>
+                </form>
+              </div>
+          </div>
       </div>
-      </form>
     </div>
 
-    <div class="col border p-2 mx-5">
-      <h5 class="text-center">Selected Exercises</h5>
-      <ul class="list-group" id="exercise_selected">
-  
-      </ul>
-    </div>
-
-  </div>
-
-  <h2 class="mt-2 text-center">Exercises</h2>
-  <div class="row justify-content-center">
-    <div class="accordion accordion-flush col col-md-8" id="exercise_accordion">
+    <h4 class="mt-2 text-center">Exercises</h4>
+    <div class="accordion accordion-flush col col-md-7 overflow-auto" id="exercise_accordion">
       {{#each categories as |category|}}
         <div class="accordion-item category{{id}}">
           <h2 class="accordion-header" id={{id}}>
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#category{{id}}" aria-expanded="false" aria-controls="category{{id}}">
-              {{name}}
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#category{{id}}" aria-expanded="false" aria-controls="category{{id}}">
+               <span class="badge rounded-pill bg-primary me-5">{{total}}</span>{{name}} 
             </button>
           </h2>
 
@@ -58,8 +64,7 @@
         </div>
       {{/each}}
     </div>
-  
-  </div>
+  </div>  
 </div>
 <script src="./js/exercise.js"></script>
 
