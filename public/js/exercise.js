@@ -1,25 +1,29 @@
 const saveWorkout = async (e) => {
   e.preventDefault();
-  const workouts = document.querySelectorAll('#exercise_selected li');
-  let data = {
-    exercise_id: workouts[0].getAttribute('data-exercise'),
-    workout_date: '2021-07-04'
-  }
+   const workouts = document.querySelectorAll('#exercise_selected li');
+   const stDate = document.querySelector('#startDt');
 
-  const response = await fetch(`/api/workouts`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json;charset=utf-8'
-    },
-    body: JSON.stringify(data)
-  });
-  if (response.ok) {
-    document.location.replace('/profile');
-  } else {
-    alert('Failed to create a new workout');
-  }
+   for (i=0; i < workouts.length; i++) {
+    let data = {
+      exercise_id: workouts[i].getAttribute('data-exercise'),
+      workout_date: stDate.value
+    }
+    const response = await fetch(`/api/workouts`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json;charset=utf-8'
+      },
+  
+      body: JSON.stringify(data)
+    });
+   }
+ 
+   // if (response.ok) {
+  //   document.location.replace('/profile');
+  // } else {
+  //   alert('Failed to create a new workout');
+  // }
 };
-
 
 
 const listExercises = async (e) => {
