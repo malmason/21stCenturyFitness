@@ -5,9 +5,6 @@ const Muscles = require('./Muscles');
 const ExerciseImage = require('./ExerciseImage');
 const Workouts = require('./Workouts');
 
-
-const ExerciseImage = require('./ExerciseImage');
-
 Exercises.belongsTo(Categories, {
   foreignKey: 'category_id',
 });
