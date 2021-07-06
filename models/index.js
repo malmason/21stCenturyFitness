@@ -6,6 +6,8 @@ const ExerciseImage = require('./ExerciseImage');
 const Workouts = require('./Workouts');
 
 
+const ExerciseImage = require('./ExerciseImage');
+
 Exercises.belongsTo(Categories, {
   foreignKey: 'category_id',
 });
@@ -35,6 +37,7 @@ Exercises.hasMany(Workouts, {
 });
 
 
+
 module.exports = {
   User,
   Categories,
@@ -42,4 +45,5 @@ module.exports = {
   Muscles,
   ExerciseImage,
   Workouts,
+
 };

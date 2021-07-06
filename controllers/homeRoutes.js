@@ -2,6 +2,7 @@ const router = require('express').Router();
 const { QueryTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 const { Exercises, Categories, User, ExerciseImage, Muscles, Workouts } = require('../models');
+
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
@@ -29,6 +30,7 @@ router.get('/', async (req, res) => {
 });
 
 router.get('/exercise', async (req, res) => {
+
   try {
     const exerciseData = await Categories.findAll({
       // where:{ category_id: 9 }, // Can be replaced with a parameter passed in
@@ -62,6 +64,7 @@ router.get('/exercise/:id', async (req, res) => {
   try {
     const exerciseData = await Exercises.findAll({
       where:{ category_id: req.params.id },
+
       order: [['name', 'ASC']],
       include: [
         {
@@ -74,6 +77,7 @@ router.get('/exercise/:id', async (req, res) => {
     
     const exercises = exerciseData.map((exercise) => exercise.get({ plain: true}));
     console.log(exercises);
+
 
     res.render('exercise', {
       exercises,
