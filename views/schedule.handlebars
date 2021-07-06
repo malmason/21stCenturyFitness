@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="card card-primary col col-md-9">
+        <div class="card-header bg-primary text-light">
+          <h5>Workout Schedule</h5>
+        </div>
+        <div class="card-body bg-light">
+         <div class="accordion accordion-flush col overflow-hidden" id="schedule_accordion">
+            {{#each schedules as |schedule|}}
+              <div class="accordion-item schedule{{id}}">
+                  <h2 class="accordion-header" id={{id}}>
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#schedule{{id}}" aria-expanded="false" aria-controls="schedule{{id}}">  
+                    {{workout_date}} - &nbsp; <span class="exercise"> {{exercise.name}}</span>
+                  </button>
+                </h2>
+
+                  <div id="schedule{{id}}" class="accordion-collapse collapse mb-2" data-bs-parent="#schedule_accordion">
+                    <div class="accordion-body exercise-body" id="schedule-list">
+                      {{{exercise.description}}}
+                    </div>
+                    <div class="form schedule-form">
+                      <div class="row">
+                        <div class="col col-md-3">
+                          <label for="sets" class="form-label exercise-body">Sets</label>
+                          <input id="sets"type="number" class="form-control exercise-body exercise-number">
+                        </div>
+                         <div class="col col-md-3">
+                          <label for="reps" class="form-label exercise-body">Reps</label>
+                          <input id="reps"type="number" class="form-control exercise-body exercise-number">
+                        </div>
+                         <div class="col col-md-3">
+                          <label for="minutes" class="form-label exercise-body">Minutes</label>
+                          <input id="minutes"type="number" class="form-control exercise-body exercise-number">
+                        </div>
+                        <div class="col col-md-3">
+                          <div class="btn btn-warning btn-sm mt-3">Update</div>
+                          <div class="btn btn-danger btn-sm mt-3">Delete</div>
+                        </div>
+                      </div>
+                    </div>
+                    {{#if exercise.gif_image}}
+                        <div class="exercise-sm-image float-end mt-3">
+                          <img src="./images/{{exercise.gif_image}}" alt="{{exercise.name}}" class="gifImage img-fluid float-end">
+                        </div>
+                      {{/if}}
+                    </div>
+              </div>
+            {{/each}}
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
