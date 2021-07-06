@@ -14,6 +14,7 @@ const PORT = process.env.PORT || 3001;
 
 const hbs = exphbs.create({ helpers });
 
+// Helper function to control the display of cards on the Profile page if the user is new and has no workouts saved. 
 hbs.handlebars.registerHelper('ifEquals', function(arg1, arg2, options) {
   return (arg1 == arg2) ? options.fn(this) : options.inverse(this);
 });
@@ -29,6 +30,13 @@ const sess = {
 };
 
 app.use(session(sess));
+
+// Make the session variables available to handlebars pages. 
+app.use(function (req, res, next) {
+    res.locals.session = req.session;
+    next();
+});
+
 
 // Inform Express.js on which template engine to use
 app.engine('handlebars', hbs.engine);

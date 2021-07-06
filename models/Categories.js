@@ -17,7 +17,11 @@ Categories.init(
     total: {
       type: DataTypes.INTEGER,
       allowNull: true,
-    }
+    },
+    gif_image: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
   },
   {
     sequelize,

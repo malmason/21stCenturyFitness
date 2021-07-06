@@ -88,12 +88,12 @@ router.get('/exercise/:id', async (req, res) => {
 router.get('/profile', withAuth, async (req, res) => {
 
   let userID = req.session.user_id;
-  let sql =  `SELECT u.id, u.first_name, u.last_name, e.name as Exercise, c.name as Category,
+  let sql =  `SELECT u.id, u.first_name, u.last_name, c.name as Category,
   COUNT(w.exercise_id) as TotalExercises, SUM(w.sets) as TotalSets, SUM(w.reps) as TotalReps,
-  SUM(w.total_minutes) as TotalMinutes FROM user u JOIN workouts w ON u.id = w.user_id
+  SUM(w.total_minutes) as TotalMinutes, c.gif_image FROM user u JOIN workouts w ON u.id = w.user_id
   JOIN exercises e ON e.id = w.exercise_id JOIN categories c ON c.id = e.category_id
   WHERE u.id = ${userID}
-  GROUP BY u.id,u.first_name,u.last_name,e.name,c.name ORDER BY c.name`
+  GROUP BY u.id,u.first_name,u.last_name, c.name, c.gif_image ORDER BY c.name`
 
   try {
     // Find the logged in user based on the session ID

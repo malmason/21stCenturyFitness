@@ -1,9 +1,9 @@
 [
-  {"id":10,"name":"Abs", "total": 29},
-  {"id":8,"name":"Arms", "total": 43},
-  {"id":12,"name":"Back","total": 38},
-  {"id":14,"name":"Calves", "total": 6},
-  {"id":11,"name":"Chest", "total": 29},
-  {"id":9,"name":"Legs", "total": 51},
-  {"id":13,"name":"Shoulders", "total": 33}
+  { "id": 10, "name": "Abs", "total": 29, "gif_image": "./images/abs.jpg"},
+  { "id": 8, "name": "Arms", "total": 43, "gif_image": "./images/arms.jpg" },
+  { "id": 12, "name": "Back", "total": 38, "gif_image": "./images/back.jpg"},
+  { "id": 14, "name": "Calves", "total": 6, "gif_image": "./images/calves/jpg" },
+  { "id": 11, "name": "Chest", "total": 29, "gif_image": "./images/chest.jpg"},
+  { "id": 9, "name": "Legs", "total": 51, "gif_image": "./images/legs.jpg"},
+  { "id": 13, "name": "Shoulders", "total": 33, "gif_image": "./images/shoulders.jpg" }
 ]
