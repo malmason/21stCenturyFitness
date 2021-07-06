@@ -17,7 +17,7 @@ const saveWorkout = async (e) => {
       body: JSON.stringify(data)
     });
    }
- 
+   document.location.replace('/schedule');
    // if (response.ok) {
   //   document.location.replace('/profile');
   // } else {

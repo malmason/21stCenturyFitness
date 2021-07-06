@@ -1,11 +1,11 @@
 <div class="container">
   <div class="row justify-content-center">
-    <div class="card card-primary col col-md-8">
+    <div class="card card-primary col col-md-9">
         <div class="card-header bg-primary text-light">
           <h5>Workout Schedule</h5>
         </div>
         <div class="card-body bg-light">
-         <div class="accordion accordion-flush col overflow-auto" id="schedule_accordion">
+         <div class="accordion accordion-flush col overflow-hidden" id="schedule_accordion">
             {{#each schedules as |schedule|}}
               <div class="accordion-item schedule{{id}}">
                   <h2 class="accordion-header" id={{id}}>
@@ -38,7 +38,12 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                    {{#if exercise.gif_image}}
+                        <div class="exercise-sm-image float-end mt-3">
+                          <img src="./images/{{exercise.gif_image}}" alt="{{exercise.name}}" class="gifImage img-fluid float-end">
+                        </div>
+                      {{/if}}
+                    </div>
               </div>
             {{/each}}
           </div>

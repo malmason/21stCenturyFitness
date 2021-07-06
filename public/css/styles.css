@@ -34,3 +34,7 @@
 .exercise-number {
   max-width: 80px;
 }
+.exercise-sm-image {
+  max-width: 100px;
+  height: auto;
+}
