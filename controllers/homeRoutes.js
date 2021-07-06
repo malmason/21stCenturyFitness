@@ -96,15 +96,9 @@ router.get('/profile', withAuth, async (req, res) => {
   GROUP BY u.id,u.first_name,u.last_name, c.name, c.gif_image ORDER BY c.name`
 
   try {
-    // Find the logged in user based on the session ID
+    // Find all exercises by the log in user (summary data)
     const userData = await sequelize.query(sql,{ type: QueryTypes.SELECT });
-      // User.findByPk(
-      // req.session.user_id, {
-      // attributes: { exclude: ['password'] },
-      // include: [{ model: Workouts }]
-    // });
-
-    // const user = userData.get({ plain: true });
+  
     console.log(userData);
     res.render('profile', {
       ...userData,
@@ -114,6 +108,33 @@ router.get('/profile', withAuth, async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+router.get('/schedule', async (req, res) => {
+  try {
+    const scheduleData = await Workouts.findAll({
+      where:{ user_id: req.session.user_id },
+      order: [['workout_date', 'DESC'], [Exercises, 'name', 'ASC']],
+      include: [
+        {
+          model: Exercises,
+          attributes: ['name','description','id','gif_image'],
+        },
+        
+      ],
+    });
+    console.log(JSON.stringify(scheduleData)); // To view the details of the scheduleData object. 
+    
+    const schedules = scheduleData.map((schedule) => schedule.get({ plain: true}));
+
+    res.render('schedule', {
+      schedules,
+      logged_in: req.session.logged_in
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
 
 router.get('/login', (req, res) => {
   // If the user is already logged in, redirect the request to another route

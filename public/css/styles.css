@@ -28,3 +28,9 @@
   height: 150px;
   opacity: 0.5;
 }
+.exercise-body {
+  font-size: .8rem;
+}
+.exercise-number {
+  max-width: 80px;
+}

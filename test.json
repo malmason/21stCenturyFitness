@@ -1,46 +1,122 @@
 [
   {
-    "id": 3,
-    "first_name": "Malcolm",
-    "last_name": "Mason",
-    "Exercise": "Axe Hold",
-    "Category": "Arms",
-    "TotalExercises": 1,
-    "TotalSets": null,
-    "TotalReps": null,
-    "TotalMinutes": null
+    "id": 13,
+    "workout_date": "2021-07-07",
+    "sets": null,
+    "reps": null,
+    "total_minutes": null,
+    "exercise_id": 407,
+    "user_id": 1,
+    "exercise": {
+      "name": "Barbell Hack Squats",
+      "description": "<p>Perform leg squats with barbell behind your legs</p>",
+      "id": 407,
+      "gif_image": "barbellhacksquat.gif"
+    }
   },
   {
-    "id": 3,
-    "first_name": "Malcolm",
-    "last_name": "Mason",
-    "Exercise": "Bench Press",
-    "Category": "Chest",
-    "TotalExercises": 1,
-    "TotalSets": null,
-    "TotalReps": null,
-    "TotalMinutes": null
+    "id": 14,
+    "workout_date": "2021-07-07",
+    "sets": null,
+    "reps": null,
+    "total_minutes": null,
+    "exercise_id": 192,
+    "user_id": 1,
+    "exercise": {
+      "name": "Bench Press",
+      "description": "<p>Lay down on a bench, the bar should be directly above your eyes, the knees are somewhat angled and the feet are firmly on the floor. Concentrate, breath deeply and grab the bar more than shoulder wide. Bring it slowly down till it briefly touches your chest at the height of your nipples. Push the bar up.</p>\n<p>If you train with a high weight it is advisable to have a <em>spotter</em> that can help you up if you can't lift the weight on your own.</p>\n<p>With the width of the grip you can also control which part of the chest is trained more:</p>\n<ul>\n<li>wide grip: outer chest muscles</li>\n<li>narrow grip: inner chest muscles and triceps</li>\n</ul>",
+      "id": 192,
+      "gif_image": "benchpress.gif"
+    }
   },
   {
-    "id": 3,
-    "first_name": "Malcolm",
-    "last_name": "Mason",
-    "Exercise": "Calf Raises",
-    "Category": "Calves",
-    "TotalExercises": 1,
-    "TotalSets": null,
-    "TotalReps": null,
-    "TotalMinutes": null
+    "id": 16,
+    "workout_date": "2021-07-07",
+    "sets": null,
+    "reps": null,
+    "total_minutes": null,
+    "exercise_id": 88,
+    "user_id": 1,
+    "exercise": {
+      "name": "Bench Press Narrow Grip",
+      "description": "<p>Lay down on a bench, the bar is directly over your eyes, the knees form a slight angle and the feet are firmly on the ground. Hold the bar with a narrow grip (around 20cm.). Lead the weight slowly down till the arms are parallel to the floor (elbow: right angle), press then the bar up. When bringing the bar down, don't let it down on your nipples as with the regular bench pressing, but somewhat lower.</p>",
+      "id": 88,
+      "gif_image": null
+    }
   },
   {
-    "id": 3,
-    "first_name": "Malcolm",
-    "last_name": "Mason",
-    "Exercise": "Back Squat",
-    "Category": "Legs",
-    "TotalExercises": 1,
-    "TotalSets": null,
-    "TotalReps": null,
-    "TotalMinutes": null
+    "id": 15,
+    "workout_date": "2021-07-07",
+    "sets": null,
+    "reps": null,
+    "total_minutes": null,
+    "exercise_id": 129,
+    "user_id": 1,
+    "exercise": {
+      "name": "Biceps Curl With Cable",
+      "description": "<p>Stand around 30 - 40cm away from the cable, the feet are firmly on the floor. Take the bar and lift the weight with a fast movements. Lower the weight as with the dumbbell curls slowly and controlled.</p>",
+      "id": 129,
+      "gif_image": null
+    }
+  },
+  {
+    "id": 12,
+    "workout_date": "2021-07-06",
+    "sets": null,
+    "reps": null,
+    "total_minutes": null,
+    "exercise_id": 192,
+    "user_id": 1,
+    "exercise": {
+      "name": "Bench Press",
+      "description": "<p>Lay down on a bench, the bar should be directly above your eyes, the knees are somewhat angled and the feet are firmly on the floor. Concentrate, breath deeply and grab the bar more than shoulder wide. Bring it slowly down till it briefly touches your chest at the height of your nipples. Push the bar up.</p>\n<p>If you train with a high weight it is advisable to have a <em>spotter</em> that can help you up if you can't lift the weight on your own.</p>\n<p>With the width of the grip you can also control which part of the chest is trained more:</p>\n<ul>\n<li>wide grip: outer chest muscles</li>\n<li>narrow grip: inner chest muscles and triceps</li>\n</ul>",
+      "id": 192,
+      "gif_image": "benchpress.gif"
+    }
+  },
+  {
+    "id": 1,
+    "workout_date": "2021-07-04",
+    "sets": null,
+    "reps": null,
+    "total_minutes": null,
+    "exercise_id": 345,
+    "user_id": 1,
+    "exercise": {
+      "name": "2 Handed Kettlebell Swing",
+      "description": "<p>Two Handed Russian Style Kettlebell swing</p>",
+      "id": 345,
+      "gif_image": "2handedKettlebellSwing.gif"
+    }
+  },
+  {
+    "id": 9,
+    "workout_date": "2021-07-04",
+    "sets": null,
+    "reps": null,
+    "total_minutes": null,
+    "exercise_id": 412,
+    "user_id": 1,
+    "exercise": {
+      "name": "Bent Over Barbell Row",
+      "description": "<ol>\n<li>Holding a barbell with a pronated grip (palms facing down), bend your knees slightly and bring your torso forward, by bending at the waist, while keeping the back straight until it is almost parallel to the floor. Tip: Make sure that you keep the head up. The barbell should hang directly in front of you as your arms hang perpendicular to the floor and your torso. This is your starting position.</li>\n<li>Now, while keeping the torso stationary, breathe out and lift the barbell to you. Keep the elbows close to the body and only use the forearms to hold the weight. At the top contracted position, squeeze the back muscles and hold for a brief pause.</li>\n<li>Then inhale and slowly lower the barbell back to the starting position.</li>\n<li>Repeat for the recommended amount of repetitions.</li>\n</ol>",
+      "id": 412,
+      "gif_image": "bentoverbarbellrow.gif"
+    }
+  },
+  {
+    "id": 10,
+    "workout_date": "2021-07-04",
+    "sets": null,
+    "reps": null,
+    "total_minutes": null,
+    "exercise_id": 74,
+    "user_id": 1,
+    "exercise": {
+      "name": "Biceps Curls With Barbell",
+      "description": "<p>Hold the Barbell shoulder-wide, the back is straight, the shoulders slightly back, the arms are streched. Bend the arms, bringing the weight up, with a fast movement. Without pausing, let down the bar with a slow and controlled movement.</p>\n<p>Don't allow your body to swing during the exercise, all work is done by the biceps, which are the only mucles that should move (pay attention to the elbows).</p>",
+      "id": 74,
+      "gif_image": "bicepscurlbarbell.gif"
+    }
   }
 ]
