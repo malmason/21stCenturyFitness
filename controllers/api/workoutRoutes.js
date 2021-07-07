@@ -2,7 +2,6 @@ const router = require('express').Router();
 const { Workouts, User, Categories, Exercises } = require('../../models');
 const withAuth = require('../../utils/auth');
 
-// TODO: Complete the routes for saving and updating a new workout
 router.post('/', withAuth, async (req, res) => {
   console.log("received post request");
   console.log(req.session.user_id);
@@ -20,6 +19,7 @@ try {
 });
 
 router.put('/:id', withAuth, async (req, res) => {
+  
   try {
     const workoutData = await Workouts.update(req.body,{
       where: {
