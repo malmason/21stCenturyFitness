@@ -33,11 +33,6 @@ const saveWorkout = async (e) => {
    }
   }; 
    document.location.replace('/schedule');
-   // if (response.ok) {
-  //   document.location.replace('/profile');
-  // } else {
-  //   alert('Failed to create a new workout');
-  // }
 };
 
 const listExercises = async (e) => {
