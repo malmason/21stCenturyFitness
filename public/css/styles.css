@@ -48,6 +48,14 @@
   height: auto;
 }
 
+.home-card {
+  background-color: rgb(237, 194, 100);
+  line-height: 1;
+  width: 400px;
+  height:fit-content;
+  padding: 10px;
+}
+
 .titleText {
   font-size: xx-large;
   font-weight: 900;
