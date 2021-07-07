@@ -26,6 +26,9 @@ const saveWorkout = async (e) => {
 };
 
 
+// TODO: Complete put and delete listeners and test results. Finish charts on profile page. 
+
+
 const listExercises = async (e) => {
   // Get the information from the checkbox that was clicked
 

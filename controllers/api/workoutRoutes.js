@@ -19,5 +19,47 @@ try {
   }
 });
 
+router.put('/:id', withAuth, async (req, res) => {
+  try {
+    const workoutData = await Workouts.update(req.body,{
+      where: {
+        id: req.params.id,
+        user_id: req.session.user_id,
+      },
+    });
+    
+    if (!workoutData) {
+      res.status(404).json({ message: 'No workout found with this id!' });
+      return;
+    }
+
+    res.status(200).json(workoutData);
+  } catch (err) {
+    console.log(req);
+    res.status(500).json(err);
+  }
+});
+
+
+router.delete('/:id', withAuth, async (req, res) => {
+  try {
+    const exerciseData = await Workouts.destroy({
+      where: {
+        id: req.params.id,
+        user_id: req.session.user_id,
+      },
+    });
+
+    if (!exerciseData) {
+      res.status(404).json({ message: 'No workout found with this id!' });
+      return;
+    }
+
+    res.status(200).json(exerciseData);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+
+});
 
 module.exports = router;

@@ -4,7 +4,13 @@
         <h3>Exercise Profile for {{session.first_name}} {{session.last_name}}!</h3>
       </div>
   </div>
-  
+
+  <div class="row charts">
+    <div>
+      <canvas id="myChart"></canvas>
+    </div>
+  </div>
+
   <div class="row row-cols-1 row-cols-md-3 g-4">
     {{#each this}}
       {{#ifEquals Category "Abs"}}
@@ -122,4 +128,6 @@
   {{/each}}
   </div>       
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
