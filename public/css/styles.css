@@ -32,8 +32,10 @@
   background-image: url('../images/workoutbackground.png');
   background-repeat: no-repeat;
   background-position: center;
-  height: 1500px;
+  height: auto;
+  width: 700px;
   opacity: 0.5;
+  z-index: -1;
 }
 .exercise-body {
   font-size: .8rem;
