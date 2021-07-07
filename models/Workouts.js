@@ -18,14 +18,17 @@ Workouts.init(
     sets: {
       type: DataTypes.INTEGER,
       allowNull: true,
+      defaultValue: 0,
     },
     reps: {
       type: DataTypes.INTEGER,
       allowNull: true,
+      defaultValue: 0,
     },
     total_minutes: {
       type: DataTypes.INTEGER,
       allowNull: true,
+      defaultValue: 0,
     },
     exercise_id: {
       type: DataTypes.INTEGER,

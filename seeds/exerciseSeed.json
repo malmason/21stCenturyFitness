@@ -407,7 +407,8 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": [74, 81, 80, 129, 275, 298, 86, 138, 193, 208, 205, 768, 305]
+    "variations": [74, 81, 80, 129, 275, 298, 86, 138, 193, 208, 205, 768, 305],
+    "gif_image": "bicepscurlwithcable.gif"
   },
   {
     "id": 341,
@@ -513,7 +514,8 @@
     "language": 2,
     "license": 1,
     "license_author": "wger.de",
-    "variations": []
+    "variations": [],
+    "gif_image": "butterflyreverse.gif"
   },
   {
     "id": 207,
@@ -530,7 +532,8 @@
     "language": 2,
     "license": 1,
     "license_author": "tuckerm",
-    "variations": []
+    "variations": [],
+    "gif_image": "cablecrossover.gif"
   },
   {
     "id": 265,
@@ -564,7 +567,8 @@
     "language": 2,
     "license": 1,
     "license_author": "robhoyt",
-    "variations": []
+    "variations": [],
+    "gif_image": "cablewoodchoppers.gif"
   },
   {
     "id": 308,
@@ -600,7 +604,8 @@
     "language": 2,
     "license": 3,
     "license_author": "BFad07",
-    "variations": [776, 104, 103, 102]
+    "variations": [776, 104, 103, 102],
+    "gif_image": "calfraises.gif"
   },
   {
     "id": 104,
@@ -635,7 +640,8 @@
     "language": 2,
     "license": 3,
     "license_author": "BFad07",
-    "variations": []
+    "variations": [],
+    "gif_image": "chinup.gif"
   },
   {
     "id": 181,
@@ -775,7 +781,8 @@
     "language": 2,
     "license": 2,
     "license_author": "krisbbb",
-    "variations": [91, 94, 92, 416, 93, 176, 95, 170]
+    "variations": [91, 94, 92, 416, 93, 176, 95, 170],
+    "gif_image": "cruncheswithlegsup.gif"
   },
   {
     "id": 619,
@@ -826,7 +833,8 @@
     "language": 2,
     "license": 2,
     "license_author": "Metin",
-    "variations": []
+    "variations": [],
+    "gif_image": "deadbug.gif"
   },
   {
     "id": 347,
@@ -3232,7 +3240,8 @@
     "language": 2,
     "license": 2,
     "license_author": "Cerin",
-    "variations": []
+    "variations": [],
+    "gif_image": "skippingrope.gif"
   },
   {
     "id": 218,
