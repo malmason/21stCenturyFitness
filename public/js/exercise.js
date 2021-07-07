@@ -1,5 +1,6 @@
-// const moment = require("moment");
-
+document.querySelector('#startDt').defaultValue = moment().format("YYYY-MM-DD");
+document.querySelector('#endDt').defaultValue = moment().format("YYYY-MM-DD");
+document.querySelector('#repeatWorkout').defaultValue = 1;
 const saveWorkout = async (e) => {
   e.preventDefault();
   const workouts = document.querySelectorAll('#exercise_selected li');
