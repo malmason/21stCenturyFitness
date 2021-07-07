@@ -29,13 +29,13 @@
   opacity: 0.5;
 }
 .body-image {
-  background-image: url('../images/workoutbackground.png');
+  background-image: url('../images/workoutbackground.jpg');
   background-repeat: no-repeat;
   background-position: center;
   height: auto;
-  width: 700px;
-  opacity: 0.5;
-  z-index: -1;
+  width: cover;
+  opacity: 0.1;
+  
 }
 .exercise-body {
   font-size: .8rem;
