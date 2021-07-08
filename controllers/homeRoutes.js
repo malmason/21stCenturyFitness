@@ -76,7 +76,7 @@ router.get('/exercise/:id', async (req, res) => {
     });
     
     const exercises = exerciseData.map((exercise) => exercise.get({ plain: true}));
-    console.log(exercises);
+    // console.log(exercises);
 
 
     res.render('exercise', {
@@ -126,7 +126,7 @@ router.get('/schedule', async (req, res) => {
         
       ],
     });
-    console.log(JSON.stringify(scheduleData)); // To view the details of the scheduleData object. 
+    // console.log(JSON.stringify(scheduleData)); // To view the details of the scheduleData object. 
     
     const schedules = scheduleData.map((schedule) => schedule.get({ plain: true}));
 

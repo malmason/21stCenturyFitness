@@ -17,9 +17,6 @@ router.post('/', withAuth, async (req, res) => {
   }
 });
 
-
-
-// TODO: MODIFY THIS TO PULL IN EXERCISES BASED ON CATEGORY SELECTED ON THE EXERCISE PAGE. 
 router.get('/:id', async (req, res) => {
 
   // Find all exercises in a given category

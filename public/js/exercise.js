@@ -1,12 +1,26 @@
+document.querySelector('#startDt').defaultValue = moment().format("YYYY-MM-DD");
+document.querySelector('#endDt').defaultValue = moment().format("YYYY-MM-DD");
+document.querySelector('#repeatWorkout').defaultValue = 1;
 const saveWorkout = async (e) => {
   e.preventDefault();
-   const workouts = document.querySelectorAll('#exercise_selected li');
-   const stDate = document.querySelector('#startDt');
+  const workouts = document.querySelectorAll('#exercise_selected li');
+  const stDate = new Date(document.querySelector('#startDt').value);
+  const endDate = new Date(document.querySelector('#endDt').value);
+  const repeatDays = document.querySelector('#repeatWorkout').value;
 
-   for (i=0; i < workouts.length; i++) {
+  const oneDay = 1000 * 60 *60 * 24; // one day in milliseconds
+  const diffInTime = endDate.getTime() - stDate.getTime();
+  const diffInDays = Math.round(diffInTime / oneDay);
+
+  console.log(diffInDays);
+  let saveDate = moment(stDate,"YYYY-MM-DD");
+  saveDate.subtract(2,'days');  // Subtracted 2 days due to how moment pulled in date from input field
+  for(x=0; moment(saveDate,"YYYY-MM-DD") < moment(endDate, "YYYY-MM-DD"); x = x + repeatDays) {
+    saveDate.add(repeatDays, 'days');
+     for (i=0; i < workouts.length; i++) {
     let data = {
       exercise_id: workouts[i].getAttribute('data-exercise'),
-      workout_date: stDate.value
+      workout_date: saveDate
     }
     const response = await fetch(`/api/workouts`, {
       method: 'POST',
@@ -17,14 +31,9 @@ const saveWorkout = async (e) => {
       body: JSON.stringify(data)
     });
    }
+  }; 
    document.location.replace('/schedule');
-   // if (response.ok) {
-  //   document.location.replace('/profile');
-  // } else {
-  //   alert('Failed to create a new workout');
-  // }
 };
-
 
 const listExercises = async (e) => {
   // Get the information from the checkbox that was clicked
@@ -54,6 +63,8 @@ const listExercises = async (e) => {
   };
 };
 
+
+
 document
 .querySelector('#exercise_accordion')
 .addEventListener('click', listExercises);
@@ -61,3 +72,6 @@ document
 document
 .querySelector('#btnWorkout')
 .addEventListener('click', saveWorkout);
+
+
+
