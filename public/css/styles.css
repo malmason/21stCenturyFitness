@@ -28,6 +28,15 @@
   height: 150px;
   opacity: 0.5;
 }
+.body-image {
+  background-image: url('../images/workoutbackground.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  width: cover;
+  opacity: 0.1;
+  
+}
 .exercise-body {
   font-size: .8rem;
 }
@@ -37,4 +46,18 @@
 .exercise-sm-image {
   max-width: 100px;
   height: auto;
+}
+
+.home-card {
+  background-color: rgb(237, 194, 100);
+  line-height: 1;
+  width: auto;
+  height:fit-content;
+  padding: 10px;
+}
+
+.titleText {
+  font-size: xx-large;
+  font-weight: 900;
+  text-decoration-color: black;
 }
