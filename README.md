@@ -22,7 +22,7 @@ Functionality of App
 
 ![Login in page.](/public/images/loginpage.png)
 
-![Press "exercise" to set up exercise](/public/images/exercisepage.png)
+![Press "exercise" to set up exercise](/public/images/Exercisepage.png)
 
 ![tracking progress interaction](/public/images/recordingInSchedule.png)
 
